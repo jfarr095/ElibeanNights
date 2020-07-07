@@ -906,7 +906,7 @@ Label_4_0176BB00:
  .byte   VOICE , 46
  .byte   W11
  .byte   W01
- .byte   Gs1
+ .byte   VOICE , 46
  .byte   PAN , c_v-64
  .byte   VOL , 13*AThousandTales_mvl/mxv
  .byte   BEND , c_v+0
