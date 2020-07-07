@@ -1,0 +1,8 @@
+// Dragon's Gate
+#define DragonsGateObjectSet 0xE7
+#define DragonsGatePalette 0xE8
+#define DragonsGateTileConfig 0xE9
+#define DragonsGateAnimations 0xEA
+
+// Palettes
+#define CastlePaletteLostResolve 0xE6

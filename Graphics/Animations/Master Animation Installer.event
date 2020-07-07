@@ -1,0 +1,3 @@
+#include "ExpandedAnimTable/expandanimtableinstaller.event"
+
+#include "Anims/Peer/Installer.event"

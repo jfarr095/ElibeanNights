@@ -1,0 +1,51 @@
+// setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
+
+ALIGN 16
+EliwoodMugData:
+#incext PortraitFormatter "Image/Eliwood.png"
+setMugEntry(EliwoodMug, EliwoodMugData, 3, 5, 2, 3)
+
+ALIGN 16
+LukeMugData:
+#incext PortraitFormatter "Image/Luke.png"
+setMugEntry(LukeMug, LukeMugData, 2, 7, 3, 5)
+
+ALIGN 16
+MarcusMugData:
+#incext PortraitFormatter "Image/Marcus.png"
+setMugEntry(MarcusMug, MarcusMugData, 2, 5, 3, 3)
+
+ALIGN 16
+NatalieMugData:
+#incext PortraitFormatter "Image/Natalie.png"
+setMugEntry(NatalieMug, NatalieMugData, 3, 5, 3, 3)
+
+ALIGN 16
+HarkenMugData:
+#incext PortraitFormatter "Image/Harken.png"
+setMugEntry(HarkenMug, HarkenMugData, 2, 5, 3, 3)
+
+ALIGN 16
+IsadoraMugData:
+#incext PortraitFormatter "Image/Isadora.png"
+setMugEntry(IsadoraMug, IsadoraMugData, 2, 6, 3, 4)
+
+ALIGN 16
+RebeccaMugData:
+#incext PortraitFormatter "Image/Rebecca.png"
+setMugEntry(RebeccaMug, RebeccaMugData, 3, 6, 3, 4)
+
+ALIGN 16
+LowenMugData:
+#incext PortraitFormatter "Image/Lowen.png"
+setMugEntry(LowenMug, LowenMugData, 2, 5, 2, 3)
+
+ALIGN 16
+NinianMugData:
+#incext PortraitFormatter "Image/Ninian.png"
+setMugEntry(NinianMug, NinianMugData, 3, 6, 4, 4)
+
+ALIGN 16
+DorcasMugData:
+#incext PortraitFormatter "Image/Dorcas.png"
+setMugEntry(DorcasMug, DorcasMugData, 2, 4, 3, 2)

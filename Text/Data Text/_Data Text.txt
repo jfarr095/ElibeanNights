@@ -1,0 +1,5 @@
+#include "Character Text.txt"
+
+#include "Item Text.txt"
+
+#include "Class Text.txt"

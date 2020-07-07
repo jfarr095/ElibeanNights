@@ -1,0 +1,76 @@
+// Gamma's fix for AI times
+#include "FillAIDangerMap/FillAIDangerMap.event"
+
+// Wan's fix for varied portrait heights
+#include "Portrait Height/Installer.txt"
+
+// Native Instrument Map (NIMAP)
+#include "NIMAP/Installer.event"
+
+// Snakey's fixes for expanding the class table
+#include "ExpandedClassTable/Class Expansion.event"
+
+// Show heal amount when using staves
+#include "FE7 & 8-Show Heal Amount/FE8-Show Heal Amount EA.event"
+
+// Allow for more than one new weapon rank to display on promotion
+#include "Promotion Ranks Fix/Promotion Ranks Fix installer.event"
+
+// Allow CHAI to edit AI 3 and 4 as well
+#include "New CHAI/New CHAI.event"
+
+// Walking sounds by table
+#include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.event"
+
+// CSA by circles
+#include "CSA System FE8/Master Spell Animation Installer.event"
+
+// Leader AI fix by stan
+#include "LeadAI/LeadAiFix.event"
+
+// In place hacks here
+
+PUSH
+
+	// No victory music
+	ORG 0x1609E
+	SHORT 0x0
+
+	// Gamma's fix for enemy autolevel
+	ORG $17C50
+	SHORT 0x1C28 0xF000 0xFA85 0xE012
+	// mov r0, r5 ; bl AutolevleRealistic ; b #0x08017C7E.
+
+	// Thracia trading
+	ORG $22F50
+	BYTE 0xC0 0x46
+
+	// Fix autolevel for prf weapons
+  	ORG $17F88
+  	BYTE 0x00 0x21
+
+  	// Kirb's fixes for chapter IDs
+	ORG 0x897B2
+	SHORT 0 0	  
+	ORG 0x897C4
+	SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
+	ORG 0x206948
+	BYTE 0
+
+	// Snakey's fix for Map Sprites with ID > 0x80
+	ORG 0x268E4
+	SHORT 0x2000
+	ORG 0x26A52
+	SHORT 0x2000
+	ORG 0x26B42
+	SHORT 0x2000
+
+	// Disable the Link Arena
+	ORG $AB90E
+	BYTE 0x0 0x0 0x0 0x20
+
+    // Remove LOAD2's extreneous characters
+    ORG $9ED674
+    BYTE 0x0 0x0 0x0 0x0
+
+POP

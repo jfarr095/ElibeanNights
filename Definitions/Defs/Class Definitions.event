@@ -1,0 +1,6 @@
+// Peer
+#undef Peer
+#define Peer 0x1
+#define PeerMapSpriteStanding 0x0
+#define PeerSwordAnim EirikaSwordAnim
+#define PeerUnarmedAnim EirikaUnarmedAnim

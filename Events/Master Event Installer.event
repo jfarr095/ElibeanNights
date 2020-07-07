@@ -1,0 +1,11 @@
+#include "World Map Events/World Map Events Installer.event"
+
+ALIGN 4
+{
+	#include "TaleSelect.event"
+}
+
+ALIGN 4
+{
+	#include "LostResolve.event"
+}

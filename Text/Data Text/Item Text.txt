@@ -1,0 +1,29 @@
+## NobleRapierName
+Noble Rapier[X]
+
+## NobleRapierDescription
+A rapier forged from regal silver.[X]
+
+## FalchionName
+Falchion[X]
+
+## FalchionDescription
+The exalted king's divine blade.[X]
+
+## SteelArchName
+Steel Arch[X]
+
+## SteelArchDescription
+Large, heavy steel-plated bow.[X]
+
+## SteelPoleaxName
+Steel Poleax[X]
+
+## SteelPoleaxDescription
+Steel axehead atop a long shaft.[X]
+
+## ShortAxeName
+Short Axe[X]
+
+## ShortAxeDescription
+A shortened axe made for throwing.[X]

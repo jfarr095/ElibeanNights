@@ -1,0 +1,13 @@
+#include "Mugs/Master Mug Installer.event"
+
+#include "Tilesets/Tileset Installer.event"
+
+#include "Item Icons/Item Icon Installer.event"
+
+#include "Animations/Master Animation Installer.event"
+
+#include "Map Sprites/Master Map Sprite Installer.event"
+
+#include "Title Screen/Title Screen Installer.event"
+
+#include "UI/UI Installer.event"

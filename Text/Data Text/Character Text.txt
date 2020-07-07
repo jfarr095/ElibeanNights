@@ -1,0 +1,76 @@
+## EliwoodName
+Eliwood[X]
+
+## EliwoodDescription
+The young Marquess Pherae.[N]
+A just and honorable man.[X]
+
+## LukeName
+Luke[X]
+
+## LukeDescription
+Spoiled royalty from a distant[N]
+land of no real importance.[X]
+
+## MarcusName
+Marcus[X]
+
+## MarcusDescription
+A veteran paladin, the commander[N]
+of House Pherae's knights.[X]
+
+## NinianName
+Ninian[X]
+
+## NinianDescription
+A somber girl. The loving[N]
+wife of Marquess Eliwood.[X]
+
+## NatalieName
+Natalie[X]
+
+## NatalieDescription
+The loving wife of Dorcas and[N]
+a devoted nurse of House Pherae.[X]
+
+## HarkenName
+Harken[X]
+
+## HarkenDescription
+A devout knight of House[N]
+Pherae. Served Eliwood's father.[X]
+
+## IsadoraName
+Isadora[X]
+
+## IsadoraDescription
+A paladin in service to House[N]
+Pherae. Modest and polite.[X]
+
+## LowenName
+Lowen[X]
+
+## LowenDescription
+A knight in service to House[N]
+Pherae. Serious and dedicated.[X]
+
+## RebeccaName
+Rebecca[X]
+
+## RebeccaDescription
+A sniper serving Pherae.[N]
+Very helpful and bright.[X]
+
+## DorcasName
+Dorcas[X]
+
+## DorcasDescription
+A man from a small village[N]
+in Bern. Fights for his wife.[X]
+
+## BanditName
+Bandit[X]
+
+## LostResolveBanditDescription
+Members of the Bolm Mountain[N]
+Bandits, ruffians stalking Pherae.[X]

@@ -1,0 +1,14 @@
+
+ALIGN 4
+
+{
+	#include "Sword Installer.event"
+	#include "Unarmed Installer.event"
+}
+
+ALIGN 4
+
+PeerAnimations:
+SwordAnim(PeerSwordAnim)
+UnarmedAnim(PeerUnarmedAnim)
+EndAnim

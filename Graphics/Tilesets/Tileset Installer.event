@@ -1,0 +1,31 @@
+// Tilesets
+
+// Dragon's Gate
+
+ALIGN 4
+DragonsGateTilesetObjects:
+#incbin "Compressed Images/Dragons Gate.dmp"
+
+ALIGN 4
+DragonsGateTilesetPalette:
+#incbin "Compressed Images/Dragons Gate_pal.dmp"
+
+ALIGN 4
+DragonsGateTilesetTileConfig:
+#incbin "MapChip/Dragons Gate_comp.dmp"
+
+EventPointerTable(DragonsGateObjectSet,DragonsGateTilesetObjects)
+EventPointerTable(DragonsGatePalette,DragonsGateTilesetPalette)
+EventPointerTable(DragonsGateTileConfig,DragonsGateTilesetTileConfig)
+
+// Lost Resolve Castle
+
+ALIGN 4
+LostResolveCastleTilesetPalette:
+#incbin "Compressed Images/LostResolveCastle_pal.dmp"
+
+EventPointerTable(CastlePaletteLostResolve,LostResolveCastleTilesetPalette)
+
+
+ALIGN 4
+#include "TileAnims/TileAnims.event"

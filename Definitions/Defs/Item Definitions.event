@@ -1,0 +1,16 @@
+#define NobleRapier 0xBE
+#define NobleRapierIcon 0xAD
+
+#define Falchion 0xBD
+#define FalchionIcon 0xAE
+
+#define Tonic Vulnerary // for now
+
+#define SteelArch 0xBF
+#define SteelArchIcon 0xAF
+
+#define SteelPoleax 0xC0
+#define SteelPoleaxIcon 0xCA
+
+#define ShortAxe 0xC1
+#define ShortAxeIcon 0xCB

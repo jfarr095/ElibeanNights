@@ -1,0 +1,13 @@
+## PeerName
+Peer[X]
+
+## PeerDescription
+A noble who leads one of[N]
+Lycia's ruling houses.[X]
+
+## PrinceName
+Prince[X]
+
+## PrinceDescription
+A young prince with[N]
+no battle prowess.[X]

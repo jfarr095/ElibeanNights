@@ -1,0 +1,24 @@
+//#incext PFinder "FE8_clean.gba" 0xc00008 expandedanimtable.bin
+
+ALIGN 4
+ExpandedAnimTable:
+#incbin "expandanimtable.bin"
+
+#define AnimTableEntry(index) "ORG ExpandedAnimTable + ((index-0x1) * 0x20)"
+
+PUSH
+ORG $59BD8
+POIN ExpandedAnimTable
+ORG $5A600
+POIN ExpandedAnimTable
+ORG $5A694
+POIN ExpandedAnimTable
+ORG $5A82C
+POIN ExpandedAnimTable
+ORG $6F6A8
+POIN ExpandedAnimTable
+ORG $70940
+POIN ExpandedAnimTable
+ORG $70A60
+POIN ExpandedAnimTable
+POP

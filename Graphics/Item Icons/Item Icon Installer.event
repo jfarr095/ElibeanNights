@@ -1,0 +1,20 @@
+#include "ExpandedItemIconTable/expandicontable.event"
+
+PUSH
+
+	ORG WeaponIconOffset(NobleRapierIcon)
+	#incbin "Icons/NobleRapier.dmp"
+
+	ORG WeaponIconOffset(FalchionIcon)
+	#incbin "Icons/Falchion.dmp"
+
+	ORG WeaponIconOffset(SteelArchIcon)
+	#incbin "Icons/SteelArch.dmp"
+
+	ORG WeaponIconOffset(SteelPoleaxIcon)
+	#incbin "Icons/SteelPoleax.dmp"
+
+	ORG WeaponIconOffset(ShortAxeIcon)
+	#incbin "Icons/ShortAxe.dmp"
+
+POP

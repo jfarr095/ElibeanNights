@@ -1,0 +1,6 @@
+#define EliwoodLock 0x1
+
+EliwoodLockArray:
+BYTE 0x1
+BYTE Eliwood
+BYTE 0x0

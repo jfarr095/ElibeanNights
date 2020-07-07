@@ -1,0 +1,31 @@
+#define Eliwood 0x1
+#define EliwoodMug 0x2
+
+#define Luke 0x2
+#define LukeMug 0x3
+
+#define Marcus 0x3
+#define MarcusMug 0x4
+
+#define Ninian 0x4
+#define NinianMug 0x5
+
+#define Natalie 0x5
+#define NatalieMug 0x6
+
+#define Harken 0x6
+#define HarkenMug 0x7
+
+#define Isadora 0x7
+#define IsadoraMug 0x8
+
+#define Lowen 0x8
+#define LowenMug 0x9
+
+#define Rebecca 0x9
+#define RebeccaMug 0xA
+
+#define Dorcas 0xA
+#define DorcasMug 0xB
+
+#define LostResolveBandit 0x80

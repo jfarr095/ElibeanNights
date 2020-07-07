@@ -1,0 +1,257 @@
+INLINE WalkingSoundTable,Walking Sound
+None,0x0
+Ephraim Lord,0x0
+Eirika Lord,0x0
+Ephraim Master Lord,CavalryWalk
+Eirika Master Lord,CavalryWalk
+Cavalier,CavalryWalk
+Cavalier (F),CavalryWalk
+Paladin,CavalryWalk
+Paladin (F),CavalryWalk
+Armour Knight,ArmorWalk
+Armour Knight (F),ArmorWalk
+General,ArmorWalk
+General (F),ArmorWalk
+Thief,0x0
+Manakete,0x0
+Mercenary,0x0
+Mercenary (F),0x0
+Hero,0x0
+Hero (F),0x0
+Myrmidon,0x0
+Myrmidon (F),0x0
+Swordmaster,0x0
+Swordmaster (F),0x0
+Assassin,0x0
+Assassin (F),0x0
+Archer,0x0
+Archer (F),0x0
+Sniper,0x0
+Sniper (F),0x0
+Ranger,CavalryWalk
+Ranger (F),CavalryWalk
+Wyvern Rider,WyvernWalk
+Wyvern Rider (F),WyvernWalk
+Wyvern Lord,WyvernWalk
+Wyvern Lord (F),WyvernWalk
+Wyvern Knight,WyvernWalk
+Wyvern Knight (F),WyvernWalk
+Mage,0x0
+Mage (F),0x0
+Sage,0x0
+Sage (F),0x0
+Mage Knight,CavalryWalk
+Mage Knight (F),CavalryWalk
+Bishop,0x0
+Bishop (F),0x0
+Shaman,0x0
+Shaman (F),0x0
+Druid,0x0
+Druid (F),0x0
+Summoner,0x1
+Summoner (F),0x1
+Rogue,0x0
+Gorgon Egg,0x0
+Great Knight,CavalryWalk
+Great Knight (F),CavalryWalk
+Recruit (2),0x0
+Journeyman (3),0x0
+Pupil (3),0x0
+Recruit (3),0x0
+Manakete,WyvernWalk
+Manakete (F),DragonWalk
+Journeyman (1),0x0
+Pupil (1),0x0
+Fighter,0x0
+Warrior,0x0
+Brigand,0x0
+Pirate,0x0
+Berserker,0x0
+Monk,0x0
+Priest,0x0
+Bard,0x0
+Recruit (1),0x0
+Pegasus Knight,PegasusWalk
+Falcon Knight,PegasusWalk
+Cleric,0x0
+Troubadour,CavalryWalk
+Valkyrie,CavalryWalk
+Dancer,0x0
+Soldier,0x0
+Necromancer,0x0
+Fleet,FleetWalk
+Phantom,FloatWalk
+Revenant,ZombieWalk
+Entombed,ZombieWalk
+Bonewalker,SkeletonWalk
+Bonewalker (Bow),SkeletonWalk
+Wight,SkeletonWalk
+Wight (Bow),SkeletonWalk
+Bael,SpiderWalk
+Elder Bael,SpiderWalk
+Cyclops,ArmorWalk
+Mauthe Doog,DogWalk
+Gwyllgi,DogWalk
+Tarvos,CavalryWalk
+Maelduin,CavalryWalk
+Mogall,FloatWalk
+Arch Mogall,FloatWalk
+Gorgon,GorgonWalk
+Gorgon Egg,0x0
+Gargoyle,WyvernWalk
+Deathgoyle,WyvernWalk
+Dracozombie,ArmorWalk
+Demon King,ArmorWalk
+Archer on Ballista,FleetWalk
+Archer on Iron Ballista,FleetWalk
+Archer on Killer Ballista,FleetWalk
+Ballista,0x0
+Iron Ballista,0x0
+Killer Ballista,0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Peer,0x0
+Queen,0x0
+Prince,0x0
+Queen,0x0
+Light Rune,0x0
+Fallen Prince,0x0
+Tent,0x0
+Pontifex,0x0
+Dead Peer,0x0
+Cyclops,ArmorWalk
+Elder Bael,SpiderWalk
+Journeyman (2),0x0
+Pupil (2),0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0

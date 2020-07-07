@@ -1,0 +1,70 @@
+EventPointerTable(PrologueEvent, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEventBothWays(0x0,LostResolveEvent,Luke,Eliwood)
+END_MAIN
+
+#define TaleSelection(unitid,chapterid,textid) "MUSI; Text(textid); SVAL 0x1 1; BNE 1 0xC 0x1; CUSA unitid; STAL 20; FADI 5; DISA_IF Luke; DISA_IF unitid; MNC2 chapterid; LABEL 1; MUNO; NoFade; ENDA"
+
+LostResolveEvent:
+TaleSelection(Eliwood,LostResolve,TaleSelectLostResolve)
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+LocationBasedEvents:
+Seize(0,0) // Having nothing to end the chapter seems to force it to be rout
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Luke Prince 0x0 Level(1,Ally,0) [7,11] 0 0 0 0 [0x0] NoAI
+
+UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NeverMoveAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units1
+ENUN
+ENDA
+
+EndingScene:
+MNC2 TaleSelect
+NoFade
+ENDA

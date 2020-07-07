@@ -1,0 +1,5 @@
+//#define SongTableOffset 0x224470
+//#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+
+SongTable(A_Thousand_Tales,AThousandTales,1)
+#include "S Files/AThousandTales.event"

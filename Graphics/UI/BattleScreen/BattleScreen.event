@@ -1,0 +1,70 @@
+ALIGN 4
+EN_Main:
+#incbin "EN_Main.bin"
+
+ALIGN 4
+EN_Left:
+#incbin "EN_Left.bin"
+
+ALIGN 4
+EN_Right:
+#incbin "EN_Right.bin"
+
+ALIGN 4
+EN_Left2:
+#incbin "LW.bin"
+
+ALIGN 4
+EN_Right2:
+#incbin "RW.bin"
+
+ALIGN 4
+EN_tsa:
+#incbin "TSA.bin"
+
+ALIGN 4
+EN_tsa2:
+#incbin "TSA2.bin"
+
+ALIGN 4
+EN_tsa3:
+#incbin "TSA3.bin"
+
+ALIGN 4
+EN_tsa4:
+#incbin "TSA4.bin"
+
+ALIGN 4
+EN_tsa5:
+#incbin "TSA5.bin"
+
+ALIGN 4
+EN_Palette:
+#incext png2dmp "EN_Battlescreen.png" --palette-only
+
+PUSH
+
+	ORG $51f68
+    POIN EN_Main // Main Tiles
+    ORG $51fc8
+    POIN EN_Left // Enemy Name
+    ORG $52088
+    POIN EN_Right // Player Name
+    ORG $52028
+    POIN EN_Left2 // Enemy Weapon
+    ORG $52164
+    POIN EN_Right2 // Player Weapon
+    ORG $51CBC
+    POIN EN_tsa
+    ORG $51CC0
+    POIN EN_tsa2
+    ORG $51378
+    POIN EN_tsa3
+    ORG $51380
+    POIN EN_tsa4
+    ORG $52170
+    POIN EN_tsa5
+    ORG $52178
+    POIN EN_Palette
+
+POP

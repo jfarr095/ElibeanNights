@@ -1,0 +1,76 @@
+//Default Animations
+
+#define HandaxeAnimation 0x1
+#define ArrowAnimation 0x2
+#define JavelinAnimation 0x3
+#define BallistaBoltAnimation 0x10
+#define RefreshAnimation 0xE
+#define FlametongueAnimation 0x13
+#define FireAnimation 0x16
+#define ElfireAnimation 0x17
+#define ThunderAnimation 0x19
+#define BoltingAnimation 0x1a
+#define FimbulvetrAnimation 0x1b
+#define AircaliburAnimation 0x1c //broken
+#define FluxAnimation 0x1d
+#define NosferatuAnimation 0x1e
+#define LightningAnimation 0x1f
+#define PurgeAnimation 0x20
+#define DivineAnimation 0x22
+#define EclipseAnimation 0x24
+#define FenrirAnimation 0x25
+#define HealAnimation 0x26
+#define MendAnimation 0x27
+#define RecoverAnimation 0x28
+#define PhysicAnimation 0x29
+#define FortifyAnimation 0x2a //broken
+#define LatonaAnimation 0x2b //broken
+#define RestoreAnimation 0x2c
+#define SilenceAnimation 0x2d
+#define SleepAnimation 0x2e
+#define HammerneAnimation 0x2f
+#define BerserkAnimation 0x30
+#define BarrierAnimation 0x31
+#define ShineAnimation 0x33
+#define LunaAnimation 0x34
+#define ExcaliburAnimation 0x35
+#define AuraAnimation 0x37
+#define FillasMightAnimation 0x3a
+#define ThorsIreAnimation 0x3b
+#define NinissGraceAnimation 0x3c
+#define SetsLitanyAnimation 0x3d
+#define StoneAnimation 0x3e
+#define IvaldiAnimation 0x3f
+#define DemonLightAnimation 0x40
+#define GleipnirAnimation 0x41
+#define CrimsonEyeAnimation 0x42
+#define EvilEyeAnimation 0x43
+#define ShadowshotAnimation 0x44
+#define DemonSurgeAnimation 0x45
+#define NagalfarAnimation 0x46
+#define WretchedAirAnimation 0x47
+#define MapOnlyAnimation 0xfffe
+#define NoAnimation 0xffff
+
+//Map Animations
+
+#define HealMapAnimation 0x89a4a54
+#define MendMapAnimation 0x89a4abc
+#define RecoverMapAnimation 0x89a4b24 //+physic
+#define FortifyMapAnimation 0x89a489c
+#define WarpMapAnimation 0x89a5214 //+rescue
+#define RestoreMapAnimation 0x89a4f44
+#define SilenceMapAnimation 0x89a4ea4
+#define SleepMapAnimation 0x89a4d64
+#define TorchMapAnimation 0x89a4bf4
+#define HammerneMapAnimation 0x89a4fcc
+#define BerserkMapAnimation 0x89a4cc4
+#define UnlockMapAnimation 0x89a4c3c
+#define BarrierMapAnimation 0x89a518c
+#define VulneraryMapAnimation 0x89a49fc
+#define ElixirMapAnimation 0x89a49a4
+#define PureWaterMapAnimation 0x89a495c
+#define AntitoxinMapAnimation 0x89a4914
+#define StoneMapAnimation 0x89a4e04
+#define LatonaMapAnimation 0x89a489c
+#define NightmareMapAnimation 0x89a481c

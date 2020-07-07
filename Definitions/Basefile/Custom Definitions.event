@@ -1,0 +1,17 @@
+#define FreeSpace 0xb2a610
+#define Free_Space FreeSpace
+#define FreeSpace2 0xe47180
+#define FreeSpaceBLRange 0x1c1ec0
+#define EndSpace 0xefb2e0
+
+#include "Class Animation Definitions.event"
+#include "Class Definitions.event"
+#include "Item Definitions.event"
+#include "Item Icon Definitions.event"
+#include "Macro Definitions.event"
+#include "Magic Animation Definitions.event"
+#include "Mug Definitions.event"
+#include "Palette Definitions.event"
+#include "PList Definitions.event"
+#include "Table Definitions.event"
+#include "Tileset Definitions.event"

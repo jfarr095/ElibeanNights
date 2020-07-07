@@ -1,0 +1,19 @@
+#include "256 Title Screen/titlebackgroundinstaller.event"
+
+ALIGN 4
+GameTitle:
+#incbin "GameTitle.dmp"
+
+ALIGN 4
+FELogo:
+#incbin "FELogo.dmp"
+
+PUSH
+	
+	ORG $C5830
+	POIN GameTitle
+
+	ORG $C5808
+	POIN FELogo
+
+POP

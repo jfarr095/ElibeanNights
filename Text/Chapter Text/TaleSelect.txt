@@ -1,0 +1,6 @@
+## TaleSelectName
+Tale Select[X]
+
+## TaleSelectLostResolve
+[MidRight][LoadEliwood]
+Play Eliwood's Tale, [Red]Lost Resolve?[Red][N][Yes][X]

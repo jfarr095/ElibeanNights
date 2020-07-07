@@ -1,0 +1,77 @@
+EventPointerTable(Ch1Event, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+LocationBasedEvents:
+Seize(14,5)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eliwood Peer 0x0 Level(6,Ally,0) [14,5] 0 0 0 0 [NobleRapier,SilverSword,ChestKey_5,Elixir] NoAI
+UNIT Ninian Dancer 0x0 Level(2,Ally,0) [15,6] 0 0 0 0 [NinissGrace,Elixir] NoAI
+UNIT Marcus Paladin 0x0 Level(8,Ally,0) [14,7] 0 0 0 0 [SilverLance,SteelSword,Javelin,HoplonGuard] NoAI
+UNIT Natalie Valkyrie 0x0 Level(3,Ally,0) [13,6] 0 0 0 0 [Physic,Lightning,Tonic] NoAI
+UNIT Isadora Paladin 0x0 Level(6,Ally,0) [13,9] 0 0 0 0 [SilverSword,ShortSpear,Elixir] NoAI
+UNIT Rebecca SniperF 0x0 Level(5,Ally,0) [16,7] 0 0 0 0 [SilverBow,SteelArch,Tonic] NoAI
+UNIT Lowen GreatKnight 0x0 Level(6,Ally,0) [15,9] 0 0 0 0 [BattleAxe,SteelPoleax,SteelBlade,Tonic] NoAI
+UNIT Harken Hero 0x0 Level(8,Ally,0) [12,7] 0 0 0 0 [BraveSword,ShortAxe,Tonic] NoAI
+UNIT
+
+EnemyUnits:
+UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,13] 0 0 0 0 [ShortAxe] DefaultAI
+UNIT LostResolveBandit Brigand 0x0 Level(14,Enemy,1) [13,17] 0 0 0 0 [PoisonAxe] DefaultAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units1
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+ENDA
+
+EndingScene:
+ENUT LostResolveClear
+MNC2 TaleSelect
+NoFade
+ENDA

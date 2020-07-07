@@ -1,0 +1,409 @@
+#ifndef TABLE_DEFINITIONS
+
+#define TABLE_DEFINITIONS
+
+//Weapon Ability 1 definitions:
+#define IsWeapon 0x1
+#define IsMagic 0x2
+#define IsStaff 0x4
+#define Indestructible 0x8
+#define Unbreakable Indestructible
+#define Unsellable 0x10
+#define IsBrave 0x20
+#define MagicDamage 0x40
+#define Uncounterable 0x80
+
+//Weapon Ability 2 definitions:
+#define ReverseTriangle 0x1
+#define CannotRepair 0x2
+#define MonsterWeapon 0x4
+#define WeaponLock1 0x8
+#define SwordmasterLock 0x10
+#define HideInfo 0x20
+#define NegateFlyingEffectiveness 0x40
+#define NegateCriticals 0x80
+
+//Weapon Ability 3 definitions:
+#define CannotUse 0x1
+#define NegateDef 0x2
+#define EirikaLock 0x4
+#define EphraimLock 0x8
+#define WeaponLock3 0x10
+#define WeaponLock4 0x20
+//#define PassiveBoosts 0x80
+
+//Weapon Ability 4 definitions
+#define CannotDoubleEffect 0xC
+#define CannotDouble CannotDoubleEffect
+
+//Weapon Effects
+#define PoisonEffect 0x1
+#define NosferatuEffect 0x2
+#define EclipseEffect 0x3
+#define DevilEffect 0x4
+#define StoneEffect 0x5
+
+//Character/Class Ability 1 definitions:
+#define MountedAid 0x1
+#define HasCanto 0x2
+#define Mounted 0x3
+#define Steal 0x4
+#define CanUseLockpick 0x8
+#define ThiefAbility 0xC
+#define CanDance 0x10
+#define CanPlay 0x20
+#define CritBoost 0x40
+#define UseBallista 0x80
+
+//Character/Class Ability 2 definitions:
+#define IsPromoted 0x1
+#define IsSupply 0x2
+#define HorseIcon 0x4
+#define DragonIcon 0x8
+#define PegIcon 0x10
+#define IsLord 0x20
+#define IsFemale 0x40
+#define IsBoss 0x80
+
+//Character/Class Ability 3 definitions:
+#define WeaponUnlock1 0x1
+#define SwordmasterUnlock 0x2
+#define UseMonsterWeapons 0x4
+#define TraineeLevelCap 0x8
+#define CannotControl 0x10
+#define TriangleAttack 0x20
+#define TriangleAttack2 0x40
+#define DecrementIDAfterLoad 0x80
+
+//Character/Class Ability 4 definitions:
+#define GiveNoExp 0x1
+#define Lethality 0x2
+#define IsMagicSeal 0x3
+#define Summoning 0x8
+#define UnlockEirika 0x10
+#define UnlockEphraim 0x20
+#define UnlockLock3 0x40
+#define UnlockLock4 0x80
+
+//Weapon Ranks
+#define NoRank 0x0
+#define ERank 0x1
+#define DRank 0x1F
+#define CRank 0x47
+#define BRank 0x79
+#define ARank 0xB5
+#define SRank 0xFB
+
+//Walking Sounds
+#define NormalWalk 0x0
+#define CavalryWalk 0x1
+#define WyvernWalk 0x2
+#define PegasusWalk 0x3
+#define ArmorWalk 0x4
+#define FleetWalk 0x5
+#define DragonWalk 0x6
+#define ZombieWalk 0x7
+#define SkeletonWalk 0x8
+#define SpiderWalk 0x9
+#define DogWalk 0xA
+#define FloatWalk 0xB
+#define GorgonWalk 0xC
+
+//Weapon Types
+#define Sword 0x0
+#define Lance 0x1
+#define Axe 0x2
+#define Bow 0x3
+#define Staff 0x4
+//#define Anima 0x5
+//#define Light 0x6
+//#define Dark 0x7
+#define ItemType 0x9
+#define MonsterWeaponType 0xb
+#define RingType 0xc
+
+//Affinities
+#define AffLight 6
+#define AffDark 5
+#define AffAnima 7
+#define AffFire 1
+#define AffWind 3
+#define AffIce 4
+#define AffThunder 2
+
+#define negateByte(byte) "0x100-byte"
+#define IsPointer 0x8000000
+
+  #define defWTAAdvantage(attackingType, defendingType) "BYTE attackingType defendingType"//"BYTE attackingType defendingType 0x0F 0x01"
+  #define defWTADisadvantage(attackingType, defendingType) "BYTE defendingType attackingType" //"BYTE attackingType defendingType 0xF1 0xFF"
+  #define endWTATable "BYTE 0xFF 0xFF"
+
+  #define defStatBoosts(hp, str, mag, skl, spd, luk, def, res) "BYTE hp str skl spd def res luk mag"
+  #define defWeaponDebuffs(str, skl, spd, luk, def, res, mag) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4)) mag"
+
+//Class Types
+#define ArmorType 0x01
+#define HorseType 0x02
+#define FlierType 0x04
+#define DragonType 0x08
+#define MonsterType 0x10
+#define SwordType 0x20
+#define MageType 0x40
+
+//Item Descriptions
+#define LordWeaponDescription 0x40C
+#define ArmorSlayerDescription 0x410
+#define DragonSlayerDescription 0x411
+#define KillerWeaponDescription 0x40f
+#define PoisonWeaponDescription 0x40b
+#define BraveWeaponDescription 0x40d
+#define HorseSlayerDescription 0x415
+#define RangedDescription 0x421
+#define LongRangeDescription 0x443
+#define DevilWeaponDescription 0x432
+#define LongbowDescription 0x442
+#define GoldDescription 0x4a1
+
+//Weapon Ranges
+#define NoRange 0x0
+#define MeleeRange 0x11
+#define BowRange 0x22
+#define OneTwoRange 0x12
+#define LongbowRange 0x23
+#define BallistaRange 0x3A
+#define LongBallistaRange 0x3F
+#define HalfMagRange 0x10
+
+//Spell Association Table Defs
+#define EnableRanged 0x0
+#define DisableRanged 0xff
+#define SameDirection 0x0
+#define FaceDown 0x1
+#define UnlockDirection 0x2
+#define NoHPChange 0x0
+#define MapOnly 1
+
+//Map Attack Colors
+#define WhiteAttack 0x0
+#define BlackAttack 0x1
+#define RedAttack 0x2
+#define GreenAttack 0x3
+#define BlueAttack 0x4
+#define YellowAttack 0x5
+
+//Walk Speed
+#define SlowWalk 1
+
+//Movement Types
+#define NormalMoveType 0x880B849
+#define RiverCrossMoveType 0x880B808
+#define CavalierMoveType 0x880BA92
+#define PaladinMoveType 0x880BAD3
+#define ArmorMoveType 0x880B88A
+#define ThiefMoveType 0x880B9CF
+#define RangerMoveType 0x880BB55
+#define FlyingMoveType 0x880BB96
+#define MageMoveType 0x880BA10
+#define FighterMoveType 0x880B8CB
+#define BrigandMoveType 0x880B94D
+#define PirateMoveType 0x880B98E
+#define BerserkerMoveType 0x880B90C
+#define AnimalMoveType 0x880BB14
+#define CivilianMoveType 0x880BA51
+#define DemonKingType 0x880BBD7
+
+//Rain Movement Types
+#define NormalRainMoveType 0x880BC9A
+#define RiverCrossRainMoveType 0x880BC59
+#define CavalierRainMoveType 0x880BEE3
+#define PaladinRainMoveType 0x880BF24
+#define ArmorRainMoveType 0x880BCDB
+#define ThiefRainMoveType 0x880BE20
+#define RangerRainMoveType 0x880BFA6
+#define FlyingRainMoveType 0x880BFE7
+#define MageRainMoveType 0x880BE61
+#define FighterRainMoveType 0x880BD1C
+#define BrigandRainMoveType 0x880BD9E
+#define PirateRainMoveType 0x880BDDF
+#define BerserkerRainMoveType 0x880BD5D
+#define AnimalRainMoveType 0x880BF65
+#define CivilianRainMoveType 0x880BEA2
+
+//Snow Movement Types
+#define NormalSnowMoveType 0x880C0AA
+#define RiverCrossSnowMoveType 0x880C069
+#define CavalierSnowMoveType 0x880C2F3
+#define PaladinSnowMoveType 0x880C334
+#define ArmorSnowMoveType 0x880C0EB
+#define ThiefSnowMoveType 0x880C230
+#define RangerSnowMoveType 0x880C3B6
+#define FlyingSnowMoveType 0x880C3F7
+#define MageSnowMoveType 0x880C271
+#define FighterSnowMoveType 0x880C12C
+#define BrigandSnowMoveType 0x880C1AE
+#define PirateSnowMoveType 0x880C1EF
+#define BerserkerSnowMoveType 0x880C16D
+#define AnimalSnowMoveType 0x880C375
+#define CivilianSnowMoveType 0x880C2B2
+
+//Terrain Avoid Bonus
+#define GetAvoBonus 0x880C479
+#define NoAvoBonus 0x880C53C
+
+//Terrain Defense Bonus
+#define GetDefBonus 0x880C4BA
+#define NoDefBonus 0x880C57D
+
+//Terrain Resistance Bonus
+#define GetResBonus 0x880C4FB
+#define NoResBonus 0x880C5BE
+
+//Weather Definitions
+#define ClearWeather 0x0
+#define SnowyWeather 0x1
+#define BlizzardWeather 0x2
+#define RainyWeather 0x4
+#define LavaWeather 0x5
+#define SandstormWeather 0x6
+#define CloudyWeather 0x7
+
+//Objective Display Definitions
+#define ObjectiveSeize 0x0
+#define ObjectiveRout 0x1
+#define ObjectiveDefend 0x2
+#define ObjectiveKillBoss 0x3
+#define ObjectiveDefeatBoss ObjectiveKillBoss
+#define ObjectiveOther 0x4
+
+//Battle Background Definitions
+#define NormalBackground 0x0
+#define SnowBackground 0x1
+#define VolcanoBackground 0x2
+#define TownBackground 0x3
+#define PlainsBackground 0x4
+#define FortBackground 0x5
+#define TownBackground2 0x6
+#define TownBackground3 0x7
+#define ShipBackground 0x8
+#define DesertBackground 0x9
+#define FortBackground2 0xa
+#define ValniBackground 0xb
+#define JehannaBackground 0xc
+#define DarklingBackground 0xd
+#define RenaisBackground 0xe
+#define CastleBackground 0xf
+#define CastleBackground2 0x10
+#define CastleBackground3 0x11
+#define MountainBackground 0x12
+#define PortBackground 0x13
+#define SwampBackground 0x14
+
+//Suport Values
+#define CSupport 0x51
+#define BSupport 0xB1
+#define ASupport 0xF1
+
+//Flags
+#define DefeatBossFlag 0x2
+#define GameOverFlag 0x65
+
+// Item Effect Revamp //
+
+//Item Usability
+#define NoItemUsability 0x28c04
+#define HealingStaffUsability 0x28a8c
+#define PhysicStaffUsability 0x28a9c
+#define FortifyStaffUsability 0x28aac
+#define RestoreStaffUsability 0x28abc
+#define SilenceStaffUsability 0x28aec
+#define SleepStaffUsability 0x28afc
+#define BerserkStaffUsability 0x28b0c
+#define WarpStaffUsability 0x28b1c
+#define RescueStaffUsability 0x28acc
+#define TorchStaffUsability 0x28bc8
+#define HammerneStaffUsability 0x28b2c
+#define UnlockStaffUsability 0x28b3c
+#define BarrierStaffUsability 0x28adc
+#define LatonaStaffUsability 0x28b98
+#define StatBoosterUsability 0x28b4c
+#define PromotionItemUsability 0x28b56
+#define ChestKeyUsability 0x28b80
+#define DoorKeyUsability 0x28b88
+#define LockpickUsability 0x28b90
+#define HealingItemUsability 0x28b60
+#define PureWaterUsability 0x28b68
+#define AntitoxinUsability 0x28b78
+#define TorchUsability 0x28b70
+#define MineUsability 0x28ba8
+#define LightRuneUsability 0x28bb8
+#define DancerRingUsability 0x28bd8
+#define MetissTomeUsability 0x28be8
+#define JunaFruitUsability 0x28bf8
+
+//Prep Screen Usability
+#define NoItemPSUsability 0x2a100
+#define StatBoosterPSUsability 0x2a0d0
+#define PromotionItemPSUsability 0x2a0da
+#define MetissTomePSUsability 0x2a0e4
+#define JunaFruitPSUsability 0x2a0f4
+
+//Targeting Routine
+#define NoItemTargeting 0x2905c
+#define SelfTargeting NoItemTargeting
+#define HealingStaffTargeting 0x28f94
+#define PhysicStaffTargeting 0x28f9c
+#define FortifyStaffTargeting 0x29014
+#define RestoreStaffTargeting 0x28fbc
+#define SilenceStaffTargeting 0x28fcc
+#define SleepStaffTargeting 0x28fd4
+#define BerserkStaffTargeting 0x28fdc
+#define WarpStaffTargeting 0x29004
+#define RescueStaffTargeting 0x28fac
+#define TorchStaffTargeting 0x29040
+#define HammerneStaffTargeting 0x2900c
+#define UnlockStaffTargeting 0x28ff4
+#define BarrierStaffTargeting 0x28fec
+#define LatonaStaffTargeting 0x29014
+#define MineTargeting 0x2901c
+#define LightRuneTargeting 0x2902c
+#define DancerRingTargeting 0x29048
+
+//Item Effects
+#define NoItemEffect 0x2ff76
+#define HealingStaffEffect 0x2fe6c
+#define FortifyStaffEffect 0x2fe84
+#define RestoreStaffEffect 0x2fe8c
+#define StatusStaffEffect 0x2fe74
+#define WarpStaffEffect 0x2fea4
+#define RescueStaffEffect 0x2fe94
+#define TorchStaffEffect 0x2ff60
+#define HammerneStaffEffect 0x2feb4
+#define UnlockStaffEffect 0x2feac
+#define BarrierStaffEffect 0x2fe9c
+#define LatonaStaffEffect 0x2ff48
+#define StatBoosterEffect 0x2ff40
+#define PromotionItemEffect 0x2feec
+#define KeyEffect 0x2fee6
+#define VulneraryEffect 0x2fec4
+#define ElixirEffect 0x2fece
+#define PureWaterEffect 0x2fed6
+#define AntitoxinEffect 0x2fede
+#define TorchEffect 0x2febc
+#define MineEffect 0x2ff50
+#define LightRuneEffect 0x2ff58
+#define DancerRingEffect 0x2ff68
+#define MetissTomeEffect 0x2ff40
+#define JunaFruitEffect 0x2ff70
+
+//Staff AI
+#define HealingStaffAI 0x3fbb9
+#define PhysicStaffAI 0x3fd31
+#define FortifyStaffAI 0x3ff01
+#define RestoreStaffAI 0x40165
+#define SilenceStaffAI 0x40355
+#define SleepBerserkStaffAI 0x404e1
+#define WarpStaffAI 0x4000d
+#define RescueStaffAI 0x3fd31
+#define BarrierStaffAI 0x40665 //nonfunctional
+
+#endif

@@ -1,0 +1,3 @@
+#include "TaleSelect.txt"
+
+#include "LostResolve.txt"

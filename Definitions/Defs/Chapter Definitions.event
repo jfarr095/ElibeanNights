@@ -1,0 +1,2 @@
+#define TaleSelect 0x0
+#define LostResolve 0x1

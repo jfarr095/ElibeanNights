@@ -1,0 +1,38 @@
+ALIGN 4
+GateAnim0:
+#incbin "DragonsGate/DragonsGate.mapanime 1_000.dmp"
+ALIGN 4
+GateAnim1:
+#incbin "DragonsGate/DragonsGate.mapanime 1_001.dmp"
+ALIGN 4
+GateAnim2:
+#incbin "DragonsGate/DragonsGate.mapanime 1_002.dmp"
+ALIGN 4
+GateAnim3:
+#incbin "DragonsGate/DragonsGate.mapanime 1_003.dmp"
+ALIGN 4
+GateAnim4:
+#incbin "DragonsGate/DragonsGate.mapanime 1_004.dmp"
+ALIGN 4
+GateAnim5:
+#incbin "DragonsGate/DragonsGate.mapanime 1_005.dmp"
+ALIGN 4
+GateAnim6:
+#incbin "DragonsGate/DragonsGate.mapanime 1_006.dmp"
+ALIGN 4
+GateAnim7:
+#incbin "DragonsGate/DragonsGate.mapanime 1_007.dmp"
+
+ALIGN 4
+DragonsGateTilesetAnimation:
+TilesetAnimation(11,1024,GateAnim0)
+TilesetAnimation(11,1024,GateAnim1)
+TilesetAnimation(11,1024,GateAnim2)
+TilesetAnimation(11,1024,GateAnim3)
+TilesetAnimation(11,1024,GateAnim4)
+TilesetAnimation(11,1024,GateAnim5)
+TilesetAnimation(11,1024,GateAnim6)
+TilesetAnimation(11,1024,GateAnim7)
+WORD 0x00 0x00
+
+EventPointerTable(DragonsGateAnimations,DragonsGateTilesetAnimation)

@@ -1,0 +1,7 @@
+ALIGN 4
+PeerStanding:
+#incbin "PeerStanding.dmp"
+
+ALIGN 4
+PeerWalking:
+#incbin "PeerWalking.dmp"
