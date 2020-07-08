@@ -28,4 +28,10 @@
 #define Dorcas 0xA
 #define DorcasMug 0xB
 
+#define Raven 0xB
+#define RavenMug 0xC
+
+#define Lucius 0xC
+#define LuciusMug 0xD
+
 #define LostResolveBandit 0x80

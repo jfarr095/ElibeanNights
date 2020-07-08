@@ -49,3 +49,13 @@ ALIGN 16
 DorcasMugData:
 #incext PortraitFormatter "Image/Dorcas.png"
 setMugEntry(DorcasMug, DorcasMugData, 2, 4, 3, 2)
+
+ALIGN 16
+RavenMugData:
+#incext PortraitFormatter "Image/Raven.png"
+setMugEntry(RavenMug, RavenMugData, 3, 5, 3, 3)
+
+ALIGN 16
+LuciusMugData:
+#incext PortraitFormatter "Image/Lucius.png"
+setMugEntry(LuciusMug, LuciusMugData, 3, 5, 3, 3)
