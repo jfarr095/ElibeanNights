@@ -907,7 +907,7 @@ Label_4_0176BB00:
  BYTE   VOICE   46
  BYTE   W11
  BYTE   W01
- BYTE   Gs1
+ BYTE   VOICE   46
  BYTE   PAN   c_v-64
  BYTE   VOL   13*AThousandTales_mvl/mxv
  BYTE   BEND   c_v+0

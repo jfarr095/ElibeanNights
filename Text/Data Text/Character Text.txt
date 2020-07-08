@@ -74,3 +74,17 @@ Bandit[X]
 ## LostResolveBanditDescription
 Members of the Bolm Mountain[N]
 Bandits, ruffians stalking Pherae.[X]
+
+## RavenName
+Raven[X]
+
+## RavenDescription
+A troubled mercenary who seeks[N]
+revenge for his fallen family.[X]
+
+## LuciusName
+Lucius[X]
+
+## LuciusDescription
+A traveling acolyte.[N]
+Gentle and serene.[X]
