@@ -75,6 +75,73 @@ Bandit[X]
 Members of the Bolm Mountain[N]
 Bandits, ruffians stalking Pherae.[X]
 
+## WarnerName
+Warner[X]
+
+## WarnerDescription
+Member of the Bolm Mountain[N]
+Bandits. Onslow's right-hand man.[X]
+
+## LynName
+Lyn[X]
+
+## LynDescription
+Lyn[X]
+
+## KentName
+Kent[X]
+
+## KentDescription
+Kent[X]
+
+## SainName
+Sain[X]
+
+## SainDescription
+Sain[X]
+
+## FlorinaName
+Florina[X]
+
+## FlorinaDescription
+Florina[X]
+
+## RathName
+Rath[X]
+
+## RathDescription
+Rath[X]
+
+## PrasadName
+Prasad[X]
+
+## PrasadDescription
+Prasad[X]
+
+## FioraName
+Fiora[X]
+
+## FioraDescription
+Fiora[X]
+
+## DayanName
+Dayan[X]
+
+## DayanDescription
+Dayan[X]
+
+## GuyName
+Guy[X]
+
+## GuyDescription
+Guy[X]
+
+## NiimeName
+Niime[X]
+
+## NiimeDescription
+Niime[X]
+
 ## RavenName
 Raven[X]
 

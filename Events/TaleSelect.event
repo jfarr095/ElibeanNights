@@ -18,12 +18,16 @@ END_MAIN
 ALIGN 32
 CharacterBasedEvents:
 CharacterEventBothWays(0x0,LostResolveEvent,Luke,Eliwood)
+CharacterEventBothWays(0x1,HomecomingEvent,Luke,Marcus)
 END_MAIN
 
 #define TaleSelection(unitid,chapterid,textid) "MUSI; Text(textid); SVAL 0x1 1; BNE 1 0xC 0x1; CUSA unitid; STAL 20; FADI 5; DISA_IF Luke; DISA_IF unitid; MNC2 chapterid; LABEL 1; MUNO; NoFade; ENDA"
 
 LostResolveEvent:
 TaleSelection(Eliwood,LostResolve,TaleSelectLostResolve)
+
+HomecomingEvent:
+TaleSelection(Marcus,Homecoming,TaleSelectHomecoming)
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
@@ -49,6 +53,7 @@ Units1:
 UNIT Luke Prince 0x0 Level(1,Ally,0) [7,11] 0 0 0 0 [0x0] NoAI
 
 UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NeverMoveAI
+UNIT Marcus Peer 0x0 Level(6,NPC,0) [5,11] 0 0 0 0 [Falchion] NeverMoveAI
 UNIT
 
 Traps1:

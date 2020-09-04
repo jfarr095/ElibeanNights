@@ -5,7 +5,7 @@
 SetChapterData(1,CastleObjectSet,0,CastlePaletteLostResolve,CastleTileConfig,Ch1Map,Map,CastleWaterTileAnimations,0,Ch1TileChange)
 EventPointerTable(Ch1TileChange, MapChanges)
 Map:
-#incbin "LostResolve_data.dmp"
+#incbin "01LostResolve_data.dmp"
 
 MapChanges:
 TileMap(0,10,6,1,1,MidLeftChest)

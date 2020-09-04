@@ -4,3 +4,7 @@ Tale Select[X]
 ## TaleSelectLostResolve
 [MidRight][LoadEliwood]
 Play Eliwood's Tale, [Red]Lost Resolve?[Red][N][Yes][X]
+
+## TaleSelectHomecoming
+[MidRight][LoadLyn]
+Play Lyn's Tale, [Red]Homecoming?[Red][N][Yes][X]
