@@ -49,3 +49,4 @@
 [CurrentPortrait] = [0xFF][0xFF]
 
 [LoadEliwood] = [LoadFace][0x2][0x1]
+[LoadLyn] = [LoadFace][0x3][0x1]

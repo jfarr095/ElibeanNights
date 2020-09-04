@@ -126,6 +126,7 @@
 #define GraySoldierMug 0x71
 #define QuestionMarkMug2 0xab
 #define QuestionMarkMugClone 0xac
+#define LynMug 0x11
 
 //Class Cards
 #define MyrmidonClassCard 0x72

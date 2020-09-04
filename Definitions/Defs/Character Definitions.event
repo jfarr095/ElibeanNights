@@ -34,4 +34,6 @@
 #define Lucius 0xC
 #define LuciusMug 0xD
 
+#define Warner 0x68
+#define WarnerMug 0xE
 #define LostResolveBandit 0x80
