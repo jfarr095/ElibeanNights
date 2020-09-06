@@ -13,6 +13,8 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,WilSpawn,2,1)
+
 END_MAIN
 
 ALIGN 32
@@ -25,6 +27,10 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(14,5)
+Stairs(1,14,25,14,17)
+Stairs(2,0,14,28,14)
+Stairs(3,27,21,27,6)
+Stairs(3,1,21,1,6)
 END_MAIN
 
 Dunno1:
@@ -70,18 +76,28 @@ UnitsHarken:
 UNIT Harken Hero 0x0 Level(8,Ally,0) [13,24] 0 0 0 0 [BraveSword,ShortAxe,Tonic] NoAI
 UNIT
 
+//Affected by Rebbeca's pairing
 
+UnitsDorcas:
+UNIT Dorcas Warrior 0x0 Level(8,Ally,0) [1,6] 0 0 0 0 [SteelPoleax,SteelBow,Tonic] NoAI
+UNIT
 
+UnitsSain:
+UNIT Sain Paladin 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [SteelAxe,Spear,Tonic] NoAI
+UNIT
 
-
+UnitsWil:
+UNIT Wil Ranger 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [BraveBow,SteelLance,Tonic] NoAI
+UNIT
 
 EnemyUnits:
 //Outer bottom
+UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,25] 0 0 0 0 [Tomahawk] GuardTileAI
 UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [21,24] 0 0 0 0 [Flux] DefaultAI
 UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [7,24] 0 0 0 0 [Flux] DefaultAI
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [22,26] 0 0 0 0 [IronAxe] DefaultAI
-UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [23,21] 0 0 0 0 [IronSword] DefaultAI
-UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [4,22] 0 0 0 0 [IronAxe] DefaultAI
+UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [23,21] 0 0 0 0 [SilverSword] DefaultAI
+UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [4,22] 0 0 0 0 [Halberd] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [5,21] 0 0 0 0 [IronAxe] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [27,18] 0 0 0 0 [IronAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [28,19] 0 0 0 0 [HandAxe] ChaseOnceApproachedAI
@@ -117,15 +133,40 @@ UNIT LostResolveBandit Myrmidon 0x0 Level(2,Enemy,1) [11,18] 0 0 0 0 [SteelBlade
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [13,17] 0 0 0 0 [DevilAxe] ChaseOnceApproachedAI
 
 //Throne room
-UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [13,11] 0 0 0 0 [SteelAxe] AttackInRangeAI
-UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,13] 0 0 0 0 [SteelAxe] AttackInRangeAI
-UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [12,10] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
-UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [16,9] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
-UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [10,5] 0 0 0 0 [Longbow] AttackInRangeAI
+//UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [13,11] 0 0 0 0 [SteelAxe] AttackInRangeAI
+//UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,13] 0 0 0 0 [SteelAxe] AttackInRangeAI
+//UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [12,10] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
+//UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [16,9] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
+//UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [10,5] 0 0 0 0 [Longbow] AttackInRangeAI
 
-UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,5] 0 0 0 0 [Tomahawk] GuardTileAI
-UNIT LostResolveBandit Berserker 0x0 Level(6,Enemy,1) [14,6] 0 0 0 0 [Tomahawk] GuardTileAI
+//UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,5] 0 0 0 0 [Tomahawk] GuardTileAI
+//UNIT LostResolveBandit Berserker 0x0 Level(6,Enemy,1) [14,6] 0 0 0 0 [Tomahawk] GuardTileAI
 UNIT
+
+ALIGN 4
+
+DorcasSpawn:
+ReinforcementEvent(UnitsDorcas)
+ENDA
+
+WilSpawn:
+Text(MatchmakerTextRebecca)
+CHECK_EVENTID RebeccaxSain
+BNE 0x4 0xC 0x0
+CHECK_EVENTID RebeccaxWil
+BNE 0x5 0xC 0x0
+ReinforcementEvent(UnitsDorcas)
+ENDA
+LABEL 0x4
+ReinforcementEvent(UnitsSain)
+ENDA
+LABEL 0x5
+ReinforcementEvent(UnitsWil)
+ENDA
+
+SainSpawn:
+ReinforcementEvent(UnitsSain)
+ENDA
 
 Traps1:
 ENDTRAP
@@ -136,11 +177,11 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-//LOAD1 0x1 Units1
-LOAD1 0x1 UnitsMain
-LOAD1 0x1 UnitsNinian
-LOAD1 0x1 UnitsIsadora
-LOAD1 0x1 UnitsHarken
+LOAD1 0x1 Units1
+//LOAD1 0x1 UnitsMain
+//LOAD1 0x1 UnitsNinian
+//LOAD1 0x1 UnitsIsadora
+//LOAD1 0x1 UnitsHarken
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
@@ -148,6 +189,17 @@ ENDA
 
 EndingScene:
 ENUT LostResolveClear
+DISA_IF Eliwood
+DISA_IF Marcus
+DISA_IF Natalie
+DISA_IF Ninian
+DISA_IF Harken
+DISA_IF Lowen
+DISA_IF Isadora
+DISA_IF Rebecca
+DISA_IF Dorcas
+DISA_IF Sain
+DISA_IF Wil
 MNC2 TaleSelect
 NoFade
 ENDA

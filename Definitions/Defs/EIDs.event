@@ -1,1 +1,83 @@
+//Main Tales cleared
 #define LostResolveClear 0x71
+#define HomecomingCLear 0x72
+#define LeaderTrialsClear 0x73
+#define ArchsagePupilClear 0x74
+#define UndyingVengeanceClear1 0x75
+#define UndyingVengeanceClear2 0x76
+#define UndyingVengeanceClear 0x76
+#define DemonToSaintClear 0x77
+#define IlliaYoungCommanderClear 0x78
+#define IvoryFlowerOfLightClear1 0x79
+#define IvoryFlowerOfLightClear2 0x7A
+#define IvoryFlowerOfLightClear 0x7A
+#define TheBeginningClear 0x7B
+
+//Extra Tales cleared
+#define PheraeReconstructionClear 0x7C
+#define PoisonedByMadnessClear 0x7D
+#define UnwantedVisitorsClear 0x7E
+#define CaelinInTurmoilClear 0x86
+#define SandOfSolitudeClear 0xB0
+
+
+//Matchmaker pairs
+//Fiora (Jerrot is the default pairing)
+#define FioraxEliwood 0x8b
+#define FioraxKent 0x8C
+#define FioraxSain 0x9B
+
+//Rebecca (Lowen is the default pairing)
+#define RebeccaxSain 0x8D
+#define RebeccaxWil 0x8E
+
+//Isadora (Harken is the default pairing)
+#define IsadoraxLegault 0x8F
+#define IsadoraxRenault 0x90
+
+//Lyn (Rath is the default pairing)
+#define LynxEliwood 0x91
+#define LynxKent 0x92
+#define LynxHector 0x93
+
+//Priscilla (Heath is the default pairing)
+#define PriscillaxGuy 0x94
+#define PriscillaxSain 0x95
+#define PriscillaxErk 0x96
+
+//Farina (Jerrot is the default pairing(?))
+#define FarinaxHector 0x97
+#define FarinaxDart 0x98
+
+//Nino (Jaffar is the default pairing)
+#define NinoxLegault 0x99
+#define NinoxErk 0x9A
+
+//Serra (Matthew is the default pairing)
+#define SerraxOsin 0x9C
+#define SerraxErk 0x9D
+
+
+//Achievements unlocked
+#define DastardsClear 0x9E
+#define BabyTalkToMeClear 0x9F
+#define JumpingTheSharkClear 0xA0
+#define TrororoClear 0xA1
+#define TraitorousSwineClear 0xA2
+#define KingOfSecretsClear 0xA3
+#define EmblemologistClear 0xA4
+#define BasiliskGlanceClear 0xA5
+#define AngelOfLifeClear 0xA6
+#define NeverSayDieClear 0xA7
+#define DemonicStreakClear 0xA8
+#define LookingForLoveClear 0xA9
+#define ThreeAmigops1 0xAA
+#define ThreeAmigops2 0xAD
+#define ThreeAmigops3 0xAE
+#define ThreeAmigopsClear 0xAF
+#define LastReedClear 0xAB
+#define MasterfulMinstrelClear 0xAC
+
+
+
+

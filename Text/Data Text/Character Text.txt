@@ -82,65 +82,82 @@ Warner[X]
 Member of the Bolm Mountain[N]
 Bandits. Onslow's right-hand man.[X]
 
+## OnslowName
+Pnslow[X]
+
+## OnslowDescription
+Leader of the Bolm Mountain[N]
+Bandits. Dreams of being a King.[X]
+
 ## LynName
 Lyn[X]
 
 ## LynDescription
-Lyn[X]
+A young woman of noble descent,[N]
+she grew up in the Lorca tribe.[X]
 
 ## KentName
 Kent[X]
 
 ## KentDescription
-Kent[X]
+A knight in service to house[N]
+Caelin. Virtuous to a fault.[X]
 
 ## SainName
 Sain[X]
 
 ## SainDescription
-Sain[X]
+A knight in service to house[N]
+Caelin. A bit of a scoundrel[X]
 
 ## FlorinaName
 Florina[X]
 
 ## FlorinaDescription
-Florina[X]
+A pegasus knight of Ilia.[N]
+One of Lyn's closest friends.[X]
 
 ## RathName
 Rath[X]
 
 ## RathDescription
-Rath[X]
+A Kutolah clansman. The stoic[N]
+son of the clan's chieftain.[X]
 
 ## PrasadName
 Prasad[X]
 
 ## PrasadDescription
-Prasad[X]
+A Kutolah nomad. He speaks[N]
+slowly but thinks fast.[X]
 
 ## FioraName
 Fiora[X]
 
 ## FioraDescription
-Fiora[X]
+Retired leader of Ilia's 5th wing.[N]
+Straight-edged and earnest.[X]
 
 ## DayanName
 Dayan[X]
 
 ## DayanDescription
-Dayan[X]
+Chieftain of the Kutolah,[N]
+the famed "Silver Wolf."[X]
 
 ## GuyName
 Guy[X]
 
 ## GuyDescription
-Guy[X]
+A youth from Sacae. Trains[N]
+to challenge his master.[X]
 
 ## NiimeName
 Niime[X]
 
 ## NiimeDescription
-Niime[X]
+The "Hermit," a renowned[N]
+practitioner of the dark arts.[X]
 
 ## RavenName
 Raven[X]
@@ -155,3 +172,17 @@ Lucius[X]
 ## LuciusDescription
 A traveling acolyte.[N]
 Gentle and serene.[X]
+
+## WilName
+Wil[X]
+
+## WilDescription
+A youth from Pherae, in the[N]
+Lycian League. Very social.[X]
+
+## WallaceName
+Wallace[X]
+
+## WallaceDescription
+A retired knight of Caelin.[N]
+Constantly testing himself.[X]

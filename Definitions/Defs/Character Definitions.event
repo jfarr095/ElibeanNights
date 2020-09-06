@@ -37,3 +37,9 @@
 #define Warner 0x68
 #define WarnerMug 0xE
 #define LostResolveBandit 0x80
+
+#define Sain 0xD
+#define SainMug 0xE
+
+#define Wil 0xE
+#define WilMug 0xF

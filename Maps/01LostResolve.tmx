@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="29" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="29" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" name="0A00520C" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="Tilesets/LostResolveCastle.png" trans="ffffff" width="512" height="512"/>
  </tileset>
@@ -421,7 +421,7 @@
    <tile gid="821"/>
    <tile gid="823"/>
    <tile gid="822"/>
-   <tile gid="823"/>
+   <tile gid="420"/>
    <tile gid="822"/>
    <tile gid="823"/>
    <tile gid="459"/>
@@ -449,7 +449,7 @@
    <tile gid="459"/>
    <tile gid="821"/>
    <tile gid="822"/>
-   <tile gid="823"/>
+   <tile gid="420"/>
    <tile gid="822"/>
    <tile gid="823"/>
    <tile gid="822"/>
@@ -625,7 +625,7 @@
    <tile gid="722"/>
    <tile gid="850"/>
    <tile gid="722"/>
-   <tile gid="850"/>
+   <tile gid="420"/>
    <tile gid="423"/>
    <tile gid="823"/>
    <tile gid="720"/>
@@ -651,7 +651,7 @@
    <tile gid="720"/>
    <tile gid="821"/>
    <tile gid="520"/>
-   <tile gid="850"/>
+   <tile gid="420"/>
    <tile gid="722"/>
    <tile gid="455"/>
    <tile gid="454"/>
@@ -754,7 +754,7 @@
    <tile gid="850"/>
    <tile gid="850"/>
    <tile gid="850"/>
-   <tile gid="850"/>
+   <tile gid="420"/>
    <tile gid="850"/>
    <tile gid="850"/>
    <tile gid="850"/>

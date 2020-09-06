@@ -50,3 +50,5 @@
 
 [LoadEliwood] = [LoadFace][0x2][0x1]
 [LoadLyn] = [LoadFace][0x3][0x1]
+
+[LoadRebecca] = [LoadFace][0xA][0x1]
