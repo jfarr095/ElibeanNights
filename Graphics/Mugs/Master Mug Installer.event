@@ -69,3 +69,13 @@ ALIGN 16
 WarnerMugData:
 #incext PortraitFormatter "Image/Warner.png"
 setMugEntry(WarnerMug, WarnerMugData, 3, 5, 3, 3)
+
+ALIGN 16
+WilMugData:
+#incext PortraitFormatter "Image/Wil.png"
+setMugEntry(WilMug, WilMugData, 3, 5, 3, 3)
+
+ALIGN 16
+SainMugData:
+#incext PortraitFormatter "Image/Sain.png"
+setMugEntry(SainMug, SainMugData, 3, 5, 3, 3)

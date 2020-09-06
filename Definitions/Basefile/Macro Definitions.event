@@ -152,3 +152,4 @@
 #define HouseEventNoEnd(textID,background) "MUSI; SMOV 2 background; SMOV 3 textID; CALL $9EE310; MUNO"
 #define ConvoEventNoEnd(textID) "MUSI; TEXTSTART; TEXTSHOW textID; TEXTEND; REMA; MUNO"
 #define WarpTo(unitid,xcoord,ycoord) "CHECK_COORDS unitid; SADD 0xCB; WARP_OUT; REMU unitid; STAL 60; SVAL 0x2 unitid; _WARP 0xFFFF 0xFFFD [xcoord,ycoord]; STAL2 10; CALL 0x9EE4F8; REVEAL unitid; STAL 60"
+

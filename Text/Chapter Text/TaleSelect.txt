@@ -8,3 +8,7 @@ Play Eliwood's Tale, [Red]Lost Resolve?[Red][N][Yes][X]
 ## TaleSelectHomecoming
 [MidRight][LoadLyn]
 Play Lyn's Tale, [Red]Homecoming?[Red][N][Yes][X]
+
+## MatchmakerTextRebecca
+[MidRight][LoadRebecca]
+Who is Rebecca's pairing?[A][X]

@@ -17,8 +17,12 @@ END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
+//Tale selection
 CharacterEventBothWays(0x0,LostResolveEvent,Luke,Eliwood)
-CharacterEventBothWays(0x1,HomecomingEvent,Luke,Marcus)
+CharacterEventBothWays(0x0,HomecomingEvent,Luke,Marcus)
+
+//Matchmaker
+CharacterEventBothWays(0x0,RebeccaMatchmaker,Luke,Rebecca)
 END_MAIN
 
 #define TaleSelection(unitid,chapterid,textid) "MUSI; Text(textid); SVAL 0x1 1; BNE 1 0xC 0x1; CUSA unitid; STAL 20; FADI 5; DISA_IF Luke; DISA_IF unitid; MNC2 chapterid; LABEL 1; MUNO; NoFade; ENDA"
@@ -28,6 +32,56 @@ TaleSelection(Eliwood,LostResolve,TaleSelectLostResolve)
 
 HomecomingEvent:
 TaleSelection(Marcus,Homecoming,TaleSelectHomecoming)
+
+#define EventMenuCommand(aTextId) "WORD 0; SHORT aTextId 0; WORD 0; POIN (0x04F448+1); WORD 0; POIN (prEventMenuCommandEffect+1); WORD 0 0 0"
+	#define EventMenuCommandEnd "WORD 0 0 0 0 0 0 0 0 0"
+	prEventMenuCommandEffect:
+		SHORT 0xB500 0x203C 0x5C08 0x4B03 0x469E 0xF800 0x2017 0xBC02 0x4708 0x0000 0xD1F8 0x0800
+
+ALIGN 4
+CallRebeccaMenu:
+SHORT 0xB510 0x1C04 0x4B10 0x469E 0xF800 0x4A10 0x7850 0x2101 0x4308 0x2102 0x4308 0x2104 0x4308 0x2108 0x4308 0x2110 0x4308 0x7050 0x2000 0x4B0A 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4809 0x1C21 0x4B07 0x469E 0xF800 0xBC10 0xBC01 0x4700 0xE884 0x0804 0x3080 0x0300 0x3D38 0x0800 0x43A8 0x0800 0xEB68 0x0804 0xEBC8 0x0804
+POIN RebeccaMenuGeometry
+RebeccaMenuGeometry:
+BYTE 10 6 10 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+WORD 1                  // idk
+POIN RebeccaMenuCommands  // Command Definitions
+WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+Align 4
+RebeccaMenuCommands:
+	EventMenuCommand(LowenName)
+	EventMenuCommand(WilName)
+	EventMenuCommand(SainName)
+EventMenuCommandEnd
+
+RebeccaMatchmaker:
+EVBIT_T 0x4
+Text(MatchmakerTextRebecca)
+SVAL 0x1 0x1
+SVAL 0x2 0x2
+SVAL 0x3 0x3
+ASMC CallRebeccaMenu+1
+BEQ 0x4 0xC 0x0 //Lowen
+BEQ 0x5 0xC 0x1 //Wil
+BEQ 0x6 0xC 0x2 //Sain
+LABEL 0x4
+GiveMoney(300)
+ENUF RebeccaxSain
+ENUF RebeccaxWil
+GOTO 0x9
+LABEL 0x5
+GiveMoney(600)
+ENUF RebeccaxSain
+ENUT RebeccaxWil
+GOTO 0x9
+LABEL 0x6
+GiveMoney(900)
+ENUT RebeccaxSain
+ENUF RebeccaxWil
+GOTO 0x9
+LABEL 0x9
+NoFade
+ENDA
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
@@ -54,6 +108,7 @@ UNIT Luke Prince 0x0 Level(1,Ally,0) [7,11] 0 0 0 0 [0x0] NoAI
 
 UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NeverMoveAI
 UNIT Marcus Peer 0x0 Level(6,NPC,0) [5,11] 0 0 0 0 [Falchion] NeverMoveAI
+UNIT Rebecca SniperF 0x0 Level(5,NPC,0) [9,11] 0 0 0 0 [SilverBow,SteelArch,Tonic] NeverMoveAI
 UNIT
 
 Traps1:
