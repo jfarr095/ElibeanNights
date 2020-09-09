@@ -39,7 +39,7 @@
 #define LostResolveBandit 0x80
 
 #define Sain 0xD
-#define SainMug 0xE
+#define SainMug 0xF
 
 #define Wil 0xE
-#define WilMug 0xF
+#define WilMug 0x10

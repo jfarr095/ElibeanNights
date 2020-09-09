@@ -10,11 +10,23 @@ Falchion[X]
 ## FalchionDescription
 The exalted king's divine blade.[X]
 
+## IronArchName
+Iron Arch[X]
+
+## IronArchDescription
+Large, heavy iron-plated bow.[X]
+
 ## SteelArchName
 Steel Arch[X]
 
 ## SteelArchDescription
 Large, heavy steel-plated bow.[X]
+
+## SilverArchName
+Silver Arch[X]
+
+## SilverArchDescription
+Large, heavy silver-plated bow.[X]
 
 ## SteelPoleaxName
 Steel Poleax[X]
@@ -27,3 +39,93 @@ Short Axe[X]
 
 ## ShortAxeDescription
 A shortened axe made for throwing.[X]
+
+## IronPoleaxName
+Iron Poleax[X]
+
+## IronPoleaxDescription
+Iron axehead atop a long shaft.[X]
+
+## SilverPoleaxName
+Slv. Poleax[X]
+
+## SilverPoleaxDescription
+Long axe of glimmering silver.[X]
+
+## GigantAxeName
+Gigant Axe[X]
+
+## GigantAxeDescription
+A large axe fit only for a giant.[X]
+
+## TowerBowName
+Tower Bow[X]
+
+## TowerBowDescription
+A large bow with incredible range.[X]
+
+## BeardedAxeName
+Bearded Axe[X]
+
+## BeardedAxeDescription
+A ruffian's preffered axe.[X]
+
+## QuickSwordName
+Quick Sword[X]
+
+## QuickSwordDescription
+A sword designed for consecutive strikes.[X]
+
+## QuickAxeName
+Quick Axe[X]
+
+## QuickAxeDescription
+An axe designed for consecutive strikes.[X]
+
+## QuickLanceName
+Quick Lance[X]
+
+## QuickLanceDescription
+A lance designed for consecutive strikes.[X]
+
+## QuickBowName
+Quick Bow[X]
+
+## QuickBowDescription
+A bow designed for consecutive shots.[X]
+
+## PilumName
+Pilum[X]
+
+## PilumDescription
+A throwing lance that pierces light armor[X]
+
+## GreatlanceName
+Greatlance[X]
+
+## GreatlanceDescription
+An unwieldy yet powerful lance.[X]
+
+## LongswordName
+Longsword[X]
+
+## LongswordDescription
+A sword made for fighting cavalry.[X]
+
+## LoberaName
+Lobera[X]
+
+## LoberaDescription
+House Pherae's treasured blade.[X]
+
+## EspontoonName
+Espontoon[X]
+
+## EspontoonDescription
+Marcus's heirloom, a heroic spear.[X]
+
+## QueensgardName
+Queensgard[X]
+
+## QueensgardDescription
+A sword for a dignified lady.[X]
