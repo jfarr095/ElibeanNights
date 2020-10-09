@@ -159,6 +159,13 @@ Niime[X]
 The "Hermit," a renowned[N]
 practitioner of the dark arts.[X]
 
+## KhitanName
+Khitan[X]
+
+## KhitanDescription
+The patriarch of the Djute clan.[N]
+Profoundly hates the Kutolah.[X]
+
 ## RavenName
 Raven[X]
 
@@ -186,3 +193,17 @@ Wallace[X]
 ## WallaceDescription
 A retired knight of Caelin.[N]
 Constantly testing himself.[X]
+
+## KutolahName
+Kutolah[X]
+
+## KutolahDescription
+Members of the Kutolah,[N]
+Sacae's largest clan.[X]
+
+## DjuteName
+Djute[X]
+
+## DjuteDescription
+Warriors of the Djute, one[N]
+of Sacae's largest clans.[X]

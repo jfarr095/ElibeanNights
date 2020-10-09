@@ -66,6 +66,16 @@ LynMugData:
 setMugEntry(LynMug, LynMugData, 3, 5, 3, 3)
 
 ALIGN 16
+RathMugData:
+#incext PortraitFormatter "Image/Rath.png"
+setMugEntry(RathMug, RathMugData, 3, 5, 3, 3)
+
+ALIGN 16
+PrasadMugData:
+#incext PortraitFormatter "Image/Prasad.png"
+setMugEntry(PrasadMug, PrasadMugData, 3, 5, 3, 3)
+
+ALIGN 16
 WarnerMugData:
 #incext PortraitFormatter "Image/Warner.png"
 setMugEntry(WarnerMug, WarnerMugData, 3, 5, 3, 3)
@@ -79,3 +89,8 @@ ALIGN 16
 SainMugData:
 #incext PortraitFormatter "Image/Sain.png"
 setMugEntry(SainMug, SainMugData, 3, 5, 3, 3)
+
+ALIGN 16
+KhitanMugData:
+#incext PortraitFormatter "Image/Khitan.png"
+setMugEntry(KhitanMug, KhitanMugData, 3, 5, 3, 3)

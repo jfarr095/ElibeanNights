@@ -106,7 +106,7 @@ END_MAIN
 Units1:
 UNIT Luke Prince 0x0 Level(1,Ally,0) [7,11] 0 0 0 0 [0x0] NoAI
 
-UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NeverMoveAI
+UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NoAI
 UNIT Marcus Peer 0x0 Level(6,NPC,0) [5,11] 0 0 0 0 [Falchion] NeverMoveAI
 UNIT Rebecca SniperF 0x0 Level(5,NPC,0) [9,11] 0 0 0 0 [SilverBow,SteelArch,Tonic] NeverMoveAI
 UNIT
