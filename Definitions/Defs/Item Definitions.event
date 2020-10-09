@@ -14,3 +14,24 @@
 
 #define ShortAxe 0xC1
 #define ShortAxeIcon 0xCB
+
+
+#define IronPoleax 0xC2
+#define SilverPoleax 0xC3
+#define GigantAxe 0xC4
+#define BeardedAxe 0xC5
+#define IronArch 0xC6
+#define SilverArch 0xC7
+#define TowerBow 0xC8
+#define QuickSword 0xC9
+#define QuickAxe 0xCA
+#define QuickLance 0xCB
+#define QuickBow 0xCC
+#define Greatlance 0xCD
+#define Pilum 0xCE
+#define Longsword 0xCF
+#define Lobera 0xD0
+#define Queensgard 0xD1
+#define Espontoon 0xD2
+
+

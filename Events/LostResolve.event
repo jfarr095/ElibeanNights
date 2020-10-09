@@ -26,6 +26,11 @@ CauseGameOverIfLordDies
 END_MAIN
 
 LocationBasedEvents:
+Chest(Lobera,14,20)
+Chest(Elixir,25,2)
+Chest(Swiftsole,18,6)
+Chest(HoplonGuard,3,2)
+Chest(Elixir,10,6)
 Seize(14,5)
 Stairs(1,14,25,14,17)
 Stairs(2,0,14,28,14)
@@ -79,30 +84,30 @@ UNIT
 //Affected by Rebbeca's pairing
 
 UnitsDorcas:
-UNIT Dorcas Warrior 0x0 Level(8,Ally,0) [1,6] 0 0 0 0 [SteelPoleax,SteelBow,Tonic] NoAI
+UNIT Dorcas Warrior 0x0 Level(8,Ally,0) [1,6] 0 0 0 0 [SteelPoleax,Swordreaver,SteelBow,ChestKey_5] NoAI
 UNIT
 
 UnitsSain:
-UNIT Sain Paladin 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [SteelAxe,Spear,Tonic] NoAI
+UNIT Sain Paladin 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [Greatlance,Spear,Swordslayer] NoAI
 UNIT
 
 UnitsWil:
-UNIT Wil Ranger 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [BraveBow,SteelLance,Tonic] NoAI
+UNIT Wil Ranger 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [QuickBow,SteelBow,Axereaver,Tonic] NoAI
 UNIT
 
 EnemyUnits:
 //Outer bottom
-UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,25] 0 0 0 0 [Tomahawk] GuardTileAI
-UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [21,24] 0 0 0 0 [Flux] DefaultAI
-UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [7,24] 0 0 0 0 [Flux] DefaultAI
+UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,25] 0 0 0 0 [BraveAxe,Swordreaver,ShortAxe] GuardTileAI
+UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [21,24] 0 0 0 0 [Nosferatu,Physic] DefaultAI
+UNIT LostResolveBandit Druid 0x0 Level(2,Enemy,1) [7,24] 0 0 0 0 [Nosferatu] DefaultAI
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [22,26] 0 0 0 0 [IronAxe] DefaultAI
-UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [23,21] 0 0 0 0 [SilverSword] DefaultAI
+UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [23,21] 0 0 0 0 [Runesword] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [4,22] 0 0 0 0 [Halberd] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [5,21] 0 0 0 0 [IronAxe] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [27,18] 0 0 0 0 [IronAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [28,19] 0 0 0 0 [HandAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [28,17] 0 0 0 0 [SilverAxe] AttackInRangeAI
-UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [3,19] 0 0 0 0 [Flux] AttackInRangeAI
+UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [3,19] 0 0 0 0 [Eclipse,Flux] AttackInRangeAI
 UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [0,18] 0 0 0 0 [SteelAxe] AttackInRangeAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [1,17] 0 0 0 0 [ShortAxe] ChaseOnceApproachedAI
 
@@ -113,10 +118,10 @@ UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [27,13] 0 0 0 0 [ShortAxe] 
 UNIT LostResolveBandit Druid 0x0 Level(4,Enemy,1) [26,3] 0 0 0 0 [Flux] AttackInRangeAI
 UNIT LostResolveBandit Hero 0x0 Level(6,Enemy,1) [2,2] 0 0 0 0 [SteelSword] DefaultAI
 UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [2,11] 0 0 0 0 [Flux] DefaultAI
-UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [4,12] 0 0 0 0 [SteelSword] DefaultAI
+UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [4,12] 0 0 0 0 [Lancereaver] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [4,22] 0 0 0 0 [PoisonAxe] AttackInRangeAI
 UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [5,8] 0 0 0 0 [KillerAxe,IronBow] AttackInRangeAI
-UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [6,6] 0 0 0 0 [ShortAxe] ChaseOnceApproachedAI
+UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [6,6] 0 0 0 0 [QuickAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [7,4] 0 0 0 0 [PoisonAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [6,3] 0 0 0 0 [ShortAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [23,15] 0 0 0 0 [ShortAxe] AttackInRangeAI
@@ -127,9 +132,10 @@ UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [23,8] 0 0 0 0 [BattleAxe] 
 UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [22,2] 0 0 0 0 [Longbow] DefaultAI
 
 //Center
+UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [8,16] 0 0 0 0 [Swordreaver] AttackInRangeAI
 UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [19,18] 0 0 0 0 [Flux] AttackInRangeAI
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,18] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
-UNIT LostResolveBandit Myrmidon 0x0 Level(2,Enemy,1) [11,18] 0 0 0 0 [SteelBlade] AttackInRangeAI
+UNIT LostResolveBandit Myrmidon 0x0 Level(2,Enemy,1) [11,18] 0 0 0 0 [Lancereaver] AttackInRangeAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [13,17] 0 0 0 0 [DevilAxe] ChaseOnceApproachedAI
 
 //Throne room
@@ -139,7 +145,7 @@ UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [13,17] 0 0 0 0 [DevilAxe] 
 //UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [16,9] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
 //UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [10,5] 0 0 0 0 [Longbow] AttackInRangeAI
 
-//UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,5] 0 0 0 0 [Tomahawk] GuardTileAI
+//UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,5] 0 0 0 0 [BraveAxe,Swordreaver,ShortAxe] GuardTileAI
 //UNIT LostResolveBandit Berserker 0x0 Level(6,Enemy,1) [14,6] 0 0 0 0 [Tomahawk] GuardTileAI
 UNIT
 

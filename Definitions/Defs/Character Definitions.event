@@ -43,3 +43,13 @@
 
 #define Wil 0xE
 #define WilMug 0x10
+
+#define Khitan 0x6A
+#define KhitanMug 0x11
+#define Kutolah 0x81
+#define Djute 0x82
+
+#define Rath 0x13
+#define RathMug 0x12
+#define Prasad 0x14
+#define PrasadMug 0x13
