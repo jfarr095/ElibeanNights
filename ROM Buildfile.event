@@ -1,4 +1,7 @@
 #ifdef _FE8_
+
+	#define ItemTable
+
     #include "EAstdlib.event"
     #include "Definitions/Custom Definitions.event"
     #include "Engine Hacks/SkillSystem/skill_definitions.event"
@@ -23,6 +26,8 @@
     TableSpace:
     //CSV tables
     #include "Tables/Table Installer.event"
+    #undef ItemTable
+    #define ItemTable NewItemTable
     MESSAGE Table space used is (TableSpace - currentOffset)
 
     HaxSpace:
