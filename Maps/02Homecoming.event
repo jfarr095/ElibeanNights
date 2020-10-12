@@ -2,8 +2,8 @@
 
 #include eastdlib.event
 
-SetChapterData(2,1,0,2,3,Ch2Map,Map,0,0,Ch1TileChange)
-EventPointerTable(Ch1TileChange, MapChanges)
+SetChapterData(2,1,0,2,3,Ch2Map,Map,0,0,Ch2TileChange)
+EventPointerTable(Ch2TileChange, MapChanges)
 Map:
 #incbin "02Homecoming_data.dmp"
 
