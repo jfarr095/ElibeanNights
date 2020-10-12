@@ -129,3 +129,15 @@ Queensgard[X]
 
 ## QueensgardDescription
 A sword for a dignified lady.[X]
+
+## ManiKattiName
+Mani Katti[X]
+
+## ManiKattiDescription
+The "spirit blade". Slays infantry.[X]
+
+## SolKattiName
+Sol Katti[X]
+
+## SolKattiDescription
+The sister blade of the Mani Katti.[X]

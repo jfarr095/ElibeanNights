@@ -19,10 +19,13 @@ ALIGN 32
 CharacterBasedEvents:
 //Tale selection
 CharacterEventBothWays(0x0,LostResolveEvent,Luke,Eliwood)
-CharacterEventBothWays(0x0,HomecomingEvent,Luke,Marcus)
+CharacterEventBothWays(0x0,HomecomingEvent,Luke,Lyn)
 
 //Matchmaker
 CharacterEventBothWays(0x0,RebeccaMatchmaker,Luke,Rebecca)
+CharacterEventBothWays(0x0,LynMatchmaker,Luke,FakeLyn)
+CharacterEventBothWays(0x0,FioraMatchmaker,Luke,Fiora)
+CharacterEventBothWays(0x0,IsadoraMatchmaker,Luke,Isadora)
 END_MAIN
 
 #define TaleSelection(unitid,chapterid,textid) "MUSI; Text(textid); SVAL 0x1 1; BNE 1 0xC 0x1; CUSA unitid; STAL 20; FADI 5; DISA_IF Luke; DISA_IF unitid; MNC2 chapterid; LABEL 1; MUNO; NoFade; ENDA"
@@ -54,20 +57,75 @@ RebeccaMenuCommands:
 	EventMenuCommand(SainName)
 EventMenuCommandEnd
 
+ALIGN 4
+CallLynMenu:
+SHORT 0xB510 0x1C04 0x4B10 0x469E 0xF800 0x4A10 0x7850 0x2101 0x4308 0x2102 0x4308 0x2104 0x4308 0x2108 0x4308 0x2110 0x4308 0x7050 0x2000 0x4B0A 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4809 0x1C21 0x4B07 0x469E 0xF800 0xBC10 0xBC01 0x4700 0xE884 0x0804 0x3080 0x0300 0x3D38 0x0800 0x43A8 0x0800 0xEB68 0x0804 0xEBC8 0x0804
+POIN LynMenuGeometry
+LynMenuGeometry:
+BYTE 10 6 10 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+WORD 1                  // idk
+POIN LynMenuCommands  // Command Definitions
+WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+Align 4
+LynMenuCommands:
+	EventMenuCommand(RathName)
+	EventMenuCommand(EliwoodName)
+	EventMenuCommand(HectorName)
+	EventMenuCommand(KentName)
+EventMenuCommandEnd
+
+ALIGN 4
+CallFioraMenu:
+SHORT 0xB510 0x1C04 0x4B10 0x469E 0xF800 0x4A10 0x7850 0x2101 0x4308 0x2102 0x4308 0x2104 0x4308 0x2108 0x4308 0x2110 0x4308 0x7050 0x2000 0x4B0A 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4809 0x1C21 0x4B07 0x469E 0xF800 0xBC10 0xBC01 0x4700 0xE884 0x0804 0x3080 0x0300 0x3D38 0x0800 0x43A8 0x0800 0xEB68 0x0804 0xEBC8 0x0804
+POIN FioraMenuGeometry
+FioraMenuGeometry:
+BYTE 10 6 10 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+WORD 1                  // idk
+POIN FioraMenuCommands  // Command Definitions
+WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+Align 4
+FioraMenuCommands:
+	EventMenuCommand(JerrotName)
+	EventMenuCommand(EliwoodName)
+	EventMenuCommand(SainName)
+	EventMenuCommand(KentName)
+EventMenuCommandEnd
+
+ALIGN 4
+CallIsadoraMenu:
+SHORT 0xB510 0x1C04 0x4B10 0x469E 0xF800 0x4A10 0x7850 0x2101 0x4308 0x2102 0x4308 0x2104 0x4308 0x2108 0x4308 0x2110 0x4308 0x7050 0x2000 0x4B0A 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4809 0x1C21 0x4B07 0x469E 0xF800 0xBC10 0xBC01 0x4700 0xE884 0x0804 0x3080 0x0300 0x3D38 0x0800 0x43A8 0x0800 0xEB68 0x0804 0xEBC8 0x0804
+POIN IsadoraMenuGeometry
+IsadoraMenuGeometry:
+BYTE 10 6 10 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+WORD 1                  // idk
+POIN IsadoraMenuCommands  // Command Definitions
+WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+Align 4
+IsadoraMenuCommands:
+	EventMenuCommand(HarkenName)
+	EventMenuCommand(LegaultName)
+	EventMenuCommand(RenaultName)
+
+EventMenuCommandEnd
+
 RebeccaMatchmaker:
-EVBIT_T 0x4
+//Also doubles as a template I guess
+EVBIT_T 0x4 //can't skip cutscene
 Text(MatchmakerTextRebecca)
+//Changing memory slot values for the sake of branch comparisons. 0x3 is unused in this case, as it relates to a fourth option
 SVAL 0x1 0x1
 SVAL 0x2 0x2
 SVAL 0x3 0x3
+//Slot 0x0 doesn't need to be set because it's always 0
 ASMC CallRebeccaMenu+1
 BEQ 0x4 0xC 0x0 //Lowen
 BEQ 0x5 0xC 0x1 //Wil
 BEQ 0x6 0xC 0x2 //Sain
 LABEL 0x4
-GiveMoney(300)
+GiveMoney(300) //for testing purposes
 ENUF RebeccaxSain
 ENUF RebeccaxWil
+// Turning off the flags for the other pairings will default to Lowen in this case
 GOTO 0x9
 LABEL 0x5
 GiveMoney(600)
@@ -78,6 +136,122 @@ LABEL 0x6
 GiveMoney(900)
 ENUT RebeccaxSain
 ENUF RebeccaxWil
+//ENUF PriscillaxSain
+GOTO 0x9
+LABEL 0x9
+NoFade
+ENDA
+
+LynMatchmaker:
+EVBIT_T 0x4 //can't skip cutscene
+Text(MatchmakerTextLyn)
+SVAL 0x1 0x1
+SVAL 0x2 0x2
+SVAL 0x3 0x3
+ASMC CallLynMenu+1
+BEQ 0x4 0xC 0x0 //Rath
+BEQ 0x5 0xC 0x1 //Eliwood
+BEQ 0x6 0xC 0x2 //Hector
+BEQ 0x7 0xC 0x3 //Kent
+LABEL 0x4
+GiveMoney(300) //for testing purposes
+ENUF LynxEliwood
+ENUF LynxHector
+ENUF LynxKent
+GOTO 0x9
+LABEL 0x5
+GiveMoney(600)
+ENUT LynxEliwood
+ENUF LynxHector
+ENUF LynxKent
+ENUF FioraxEliwood
+GOTO 0x9
+LABEL 0x6
+GiveMoney(900)
+ENUF LynxEliwood
+ENUT LynxHector
+ENUF LynxKent
+//ENUF FarinaxHector
+GOTO 0x9
+LABEL 0x7
+GiveMoney(1300)
+ENUF LynxEliwood
+ENUF LynxHector
+ENUT LynxKent
+ENUF FioraxKent
+GOTO 0x9
+LABEL 0x9
+NoFade
+ENDA
+
+FioraMatchmaker:
+EVBIT_T 0x4 //can't skip cutscene
+Text(MatchmakerTextFiora)
+SVAL 0x1 0x1
+SVAL 0x2 0x2
+SVAL 0x3 0x3
+ASMC CallFioraMenu+1
+BEQ 0x4 0xC 0x0 //Jerrot
+BEQ 0x5 0xC 0x1 //Eliwood
+BEQ 0x6 0xC 0x2 //Sain
+BEQ 0x7 0xC 0x3 //Kent
+LABEL 0x4
+GiveMoney(300) //for testing purposes
+ENUF FioraxEliwood
+ENUF FioraxSain
+ENUF FioraxKent
+GOTO 0x9
+LABEL 0x5
+GiveMoney(600)
+ENUT FioraxEliwood
+ENUF FioraxSain
+ENUF FioraxKent
+ENUF LynxEliwood
+GOTO 0x9
+LABEL 0x6
+GiveMoney(900)
+ENUF FioraxEliwood
+ENUT FioraxSain
+ENUF FioraxKent
+ENUF RebeccaxSain
+//ENUF PriscillaxSain
+GOTO 0x9
+LABEL 0x7
+GiveMoney(1300)
+ENUF FioraxEliwood
+ENUF FioraxSain
+ENUT FioraxKent
+ENUF LynxKent
+GOTO 0x9
+LABEL 0x9
+NoFade
+ENDA
+
+IsadoraMatchmaker:
+EVBIT_T 0x4 //can't skip cutscene
+Text(MatchmakerTextIsadora)
+SVAL 0x1 0x1
+SVAL 0x2 0x2
+SVAL 0x3 0x3
+ASMC CallIsadoraMenu+1
+BEQ 0x4 0xC 0x0 //Harken
+BEQ 0x5 0xC 0x1 //Legault
+BEQ 0x6 0xC 0x2 //Renault
+LABEL 0x4
+GiveMoney(300) //for testing purposes
+ENUF IsadoraxLegault
+ENUF IsadoraxRenault
+GOTO 0x9
+LABEL 0x5
+GiveMoney(600)
+ENUT IsadoraxLegault
+ENUF IsadoraxRenault
+//ENUF NinoxLegault
+GOTO 0x9
+LABEL 0x6
+GiveMoney(900)
+ENUF IsadoraxLegault
+ENUT IsadoraxRenault
 GOTO 0x9
 LABEL 0x9
 NoFade
@@ -104,11 +278,18 @@ Tutorial:
 END_MAIN
 
 Units1:
+//Player
 UNIT Luke Prince 0x0 Level(1,Ally,0) [7,11] 0 0 0 0 [0x0] NoAI
 
-UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NoAI
-UNIT Marcus Peer 0x0 Level(6,NPC,0) [5,11] 0 0 0 0 [Falchion] NeverMoveAI
-UNIT Rebecca SniperF 0x0 Level(5,NPC,0) [9,11] 0 0 0 0 [SilverBow,SteelArch,Tonic] NeverMoveAI
+//Tale selection
+UNIT Eliwood Peer 0x0 Level(6,NPC,0) [5,10] 0 0 0 0 [Falchion] NeverMoveAI
+UNIT Lyn Vagabond 0x0 Level(6,NPC,0) [5,12] 0 0 0 0 [ManiKatti,SolKatti,ShortBow,Tonic] NeverMoveAI
+
+//Matchmaker ladies
+UNIT Rebecca SniperF 0x0 Level(5,NPC,0) [9,9] 0 0 0 0 [SilverBow,SteelArch,Tonic] NeverMoveAI
+UNIT Fiora Falcoknight 0x0 Level(7,NPC,0) [9,13] 0 0 0 0 [Spear,QuickLance,SteelSword] NeverMoveAI
+UNIT Isadora PaladinF 0x0 Level(6,NPC,0) [10,12] 0 0 0 0 [SilverSword,ShortSpear,Elixir] NeverMoveAI
+UNIT FakeLyn Vagabond 0x0 Level(6,NPC,0) [10,10] 0 0 0 0 [ManiKatti,SolKatti,ShortBow,Tonic] NeverMoveAI
 UNIT
 
 Traps1:

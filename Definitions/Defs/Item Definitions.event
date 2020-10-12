@@ -33,5 +33,6 @@
 #define Lobera 0xD0
 #define Queensgard 0xD1
 #define Espontoon 0xD2
-
+#define ManiKatti 0xD3
+#define SolKatti 0xD4
 

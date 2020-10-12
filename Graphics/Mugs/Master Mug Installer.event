@@ -94,3 +94,13 @@ ALIGN 16
 KhitanMugData:
 #incext PortraitFormatter "Image/Khitan.png"
 setMugEntry(KhitanMug, KhitanMugData, 3, 5, 3, 3)
+
+ALIGN 16
+FioraMugData:
+#incext PortraitFormatter "Image/Fiora.png"
+setMugEntry(FioraMug, FioraMugData, 3, 5, 3, 3)
+
+ALIGN 16
+MeredithMugData:
+#incext PortraitFormatter "Image/Meredith.png"
+setMugEntry(MeredithMug, MeredithMugData, 3, 5, 3, 3)
