@@ -187,6 +187,13 @@ Wil[X]
 A youth from Pherae, in the[N]
 Lycian League. Very social.[X]
 
+## MeredithName
+Meredith[X]
+
+## MeredithDescription
+Retired member of Pherae's knights[N]
+elite. "Sir Meredith the Strong."[X]
+
 ## WallaceName
 Wallace[X]
 
@@ -207,3 +214,41 @@ Djute[X]
 ## DjuteDescription
 Warriors of the Djute, one[N]
 of Sacae's largest clans.[X]
+
+## HectorName
+Hector[X]
+
+## HectorDescription
+Marquess Ostia. Reckless, but[N]
+his heart is in the right place.[X]
+
+
+
+
+
+## JerrotName
+Jerrot[X]
+
+## JerrotDescription
+A talented young mercenary.[N]
+Known for his bravery.[X]
+
+
+
+
+## LegaultName
+Legault[X]
+
+## LegaultDescription
+A former Black Fang once[N]
+known as Hurricane.[X]
+
+
+
+
+## RenaultName
+Renault[X]
+
+## RenaultDescription
+A cleric wandering Valor.[N]
+Once served Nergal.[X]

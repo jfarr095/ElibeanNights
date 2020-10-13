@@ -94,6 +94,14 @@
 #define ARank 0xB5
 #define SRank 0xFB
 
+#define Norank 0x0
+#define Erank 0x1
+#define Drank 0x1F
+#define Crank 0x47
+#define Brank 0x79
+#define Arank 0xB5
+#define Srank 0xFB
+
 //Walking Sounds
 #define NormalWalk 0x0
 #define CavalryWalk 0x1

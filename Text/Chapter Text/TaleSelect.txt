@@ -12,3 +12,15 @@ Play Lyn's Tale, [Red]Homecoming?[Red][N][Yes][X]
 ## MatchmakerTextRebecca
 [MidRight][LoadRebecca]
 Who is Rebecca's pairing?[A][X]
+
+## MatchmakerTextLyn
+[MidRight][LoadLyn]
+Who is Lyndis' pairing?[A][X]
+
+## MatchmakerTextFiora
+[MidRight][LoadFiora]
+Who is Fiora's pairing?[A][X]
+
+## MatchmakerTextIsadora
+[MidRight][LoadIsadora]
+Who is Isadora's pairing?[A][X]

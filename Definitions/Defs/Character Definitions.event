@@ -53,3 +53,13 @@
 #define RathMug 0x12
 #define Prasad 0x14
 #define PrasadMug 0x13
+
+#define Fiora 0x10
+#define FioraMug 0x14
+
+#define Lyn 0xF
+#define FakeLyn 0xCB
+#define LynMug 0x15
+
+#define Meredith 0x11
+#define MeredithMug 0x16

@@ -11,3 +11,10 @@ Prince[X]
 ## PrinceDescription
 A young prince with[N]
 no battle prowess.[X]
+
+## VagabondName
+Vagabond[X]
+
+## VagabondDescription
+A nomadic warrior who[N]
+wanders the land freely.[X]

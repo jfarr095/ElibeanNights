@@ -4,3 +4,6 @@
 #define PeerMapSpriteStanding 0x0
 #define PeerSwordAnim EirikaSwordAnim
 #define PeerUnarmedAnim EirikaUnarmedAnim
+
+// Vagabond
+#define Vagabond 0x2

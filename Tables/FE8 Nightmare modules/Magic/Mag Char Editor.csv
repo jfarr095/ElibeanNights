@@ -1,32 +1,32 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Eirika,0,25
-Seth,2,10
-Gilliam,0,5
-Franz,1,10
-Moulder,3,40
-Vanessa,2,25
-Ross,0,5
-Neimi,2,15
-Colm,1,10
-Garcia,0,5
-Innes,1,10
-Lute,5,65
-Natasha,1,60
-Cormag,0,5
-Ephraim,0,15
-Forde,1,10
-Kyle,0,10
-Amelia,2,25
-Artur,5,50
-Gerik,0,10
+Eliwood,3,25
+Luke,2,10
+Marcus,2,5
+Ninian,5,45
+Natalie,11,45
+Harken,4,25
+Isadora,7,40
+Lowen,2,15
+Rebecca,1,10
+Dorcas,0,5
+Raven,1,10
+Lucius,5,65
+Sain,4,35
+Wil,2,25
+Lyn,6,35
+Fiora,8,45
+Meredith,14,55
+Arnoldas,2,25
+Rath,5,50
+Prasad,0,10
 Tethys,0,5
 Marisa,1,10
 Saleh,11,30
 Ewan,2,45
 L'Arachel,5,50
 Dozla,0,5
-+AC0-0,0,50
+#¿NOMBRE?,0,50
 Rennac,3,35
 Duessel,0,5
 Myrrh,2,85
@@ -45,22 +45,22 @@ Fado,4,5
 Ismaire,7,15
 Hayden,2,10
 FakeEirika,0,0
-+AC0-0,0,0
+#¿NOMBRE?,0,0
 0,0,0
 0,0,0
 0,0,0
 0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
 Lyon's Summon,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#¿NOMBRE?,0,0
+#¿NOMBRE?,0,0
 Knoll's Summon,0,0
 Ewan's Summon,0,0
 Lyon (Ch 17),13,50
@@ -98,9 +98,9 @@ Entombed (Monster Boss),3,5
 0,0,0
 0,0,0
 0,0,0
-+AC0-0,0,0
+#¿NOMBRE?,0,0
 Hunter (Ch 16),3,10
-+AC0-0,0,0
+#¿NOMBRE?,0,0
 Brigand,0,0
 0,0,0
 O'Neill (Prologue),0,5
@@ -127,9 +127,9 @@ Orson (Ch 16),3,5
 0,0,0
 0,0,0
 Grado Soldier (Special),0,0
-Grado Soldier 1 (Normal),0,0
-Grado Soldier 2,0,0
-Grado Soldier 3,0,0
+Bandit (Lost Resolve),4,0
+Kutolah,3,0
+Djute,4,0
 Grado Soldier 4,0,0
 Grado Soldier 5,0,0
 Grado Soldier 6,0,0
