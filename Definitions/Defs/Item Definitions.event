@@ -17,22 +17,89 @@
 
 
 #define IronPoleax 0xC2
+#define IronPoleaxIcon 0xCC
 #define SilverPoleax 0xC3
+#define SilverPoleaxIcon 0xCD
 #define GigantAxe 0xC4
+#define GigantAxeIcon 0xCE
 #define BeardedAxe 0xC5
+#define BeardedAxeIcon 0xCF
 #define IronArch 0xC6
+#define IronArchIcon 0xD0
 #define SilverArch 0xC7
+#define SilverArchIcon 0xD1
 #define TowerBow 0xC8
+#define TowerBowIcon 0xD2
 #define QuickSword 0xC9
+#define QuickSwordIcon 0xD3
 #define QuickAxe 0xCA
+#define QuickAxeIcon 0xD4
 #define QuickLance 0xCB
+#define QuickLanceIcon 0xD5
 #define QuickBow 0xCC
+#define QuickBowIcon 0xD6
 #define Greatlance 0xCD
+#define GreatlanceIcon 0xD7
 #define Pilum 0xCE
+#define PilumIcon 0xD8
 #define Longsword 0xCF
+#define LongswordIcon 0xD9
 #define Lobera 0xD0
+#define LoberaIcon 0xDA
 #define Queensgard 0xD1
+#define QueensgardIcon 0xDB
 #define Espontoon 0xD2
+#define EspontoonIcon 0xDC
+
 #define ManiKatti 0xD3
+#define ManiKattiIcon 0xDD
+
 #define SolKatti 0xD4
+#define SolKattiIcon 0xDE
+#define HoplonGuardIcon 0xDF
+#define Worm 0xD5
+#define WormIcon 0xE0
+
+#define Cutlass 0xD6
+#define CutlassIcon 0xE1
+#define HuntingBow 0xD7
+#define HuntingBowIcon 0xE2
+#define Kingsword 0xD8
+#define KingswordIcon 0xE3
+#define Wind 0xD9
+#define WindIcon 0xE4
+#define Artemis 0xDA
+#define ArtemisIcon 0xE5
+#define Exordium 0xDB
+#define ExordiumIcon 0xE6
+#define RuneBow 0xDC
+#define RuneBowIcon 0xE7
+#define Swift 0xDD
+#define SwiftIcon 0xE8
+#define Shaver 0xDE
+#define ShaverIcon 0xE9
+#define Arcthunder 0xDF
+#define ArcthunderIcon 0xEA
+#define Thoron 0xE0
+#define ThoronIcon 0xEB
+#define DireThunder 0xE1
+#define DireThunderIcon 0xEC
+#define Forblaze 0xE2
+#define ForblazeIcon 0xED
+#define Vainamoinen 0xE3
+#define VainamoinenIcon 0xEF
+#define Fenris 0xE4
+#define FenrisIcon 0xF0
+
+#define Meteor 0xE5
+#define MeteorIcon 0xF1
+#define PoisonBlade 0xDE6
+#define PoisonBladeIcon 0xF2
+#define Grimoire 0xE7
+#define GrimoireIcon 0xF3
+#define Slime 0xE8
+#define SlimeIcon 0xF4
+#define Ragnarok 0xE9
+#define RagnarokIcon 0xF5
+
 

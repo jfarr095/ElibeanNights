@@ -141,3 +141,129 @@ Sol Katti[X]
 
 ## SolKattiDescription
 The sister blade of the Mani Katti.[X]
+
+## WormName
+Worm[X]
+
+## WormDescription
+A dark tome imbued with poison.[X]
+
+## CutlassName
+Cutlass[X]
+
+## CutlassDescription
+A poor man's rapier. slays infantry.[X]
+
+## HuntingBowName
+Hunting Bow[X]
+
+## HuntingBowDescription
+Designed to snipe fliers with ease.[X]
+
+## KingswordName
+Kingsword[X]
+
+## KingswordDescription
+A glorious blade fit for a king.[X]
+
+## WindName
+Wind[X]
+
+## WindDescription
+The most basic form of wind magic.[X]
+
+## ArtemisName
+Artemis[X]
+
+## ArtemisDescription
+Light spell that targets defense.[X]
+
+## ExordiumName
+Exordium[X]
+
+## ExordiumDescription
+An uncounterable heavenly flash.[X]
+
+## RuneBowName
+Rune Bow[X]
+
+## RuneBowDescription
+Artifact imbued with arcane power.[X]
+
+## SwiftName
+Swift[X]
+
+## SwiftDescription
+Hassar's personal bow.[X]
+
+## ShaverName
+Shaver[X]
+
+## ShaverDescription
+Conjures a sharp blade of wind.[X]
+
+## ArcthunderName
+Arcthunder[X]
+
+## ArcthunderDescription
+Arcane strike from the heavens.[X]
+
+## ThoronName
+Thoron[X]
+
+## ThoronDescription
+Quick, lethal lightning strike.[X]
+
+## DireThunderName
+Dire Thunder[X]
+
+## DireThunderDescription
+Crafted for Erk. Strikes twice.[X]
+
+## ForblazeName
+Forblaze[X]
+
+## ForblazeDescription
+Archsage Athos' fabled inferno.X]
+
+## VainamoinenName
+Vainamoinen[X]
+
+## VainamoinenDescription
+Bern's treasured ice tome.[X]
+
+## FenrisName
+Fenris[X]
+
+## FenrisDescription
+Powerful, long ranged dark magic.[X]
+
+## MeteorName
+Meteor[X]
+
+## MeteorDescription
+Hurls flaming meteors from afar.[X]
+
+## PoisonBladeName
+Poison Blade[X]
+
+## PoisonBladeDescription
+A large blade coated in poison.[X]
+
+## GrimoireName
+Grimoire[X]
+
+## GrimoireDescription
+Ancient tome with a defensive aura.[X]
+
+## SlimeName
+Slime[X]
+
+## SlimeDescription
+Covers the foe in ethereal goo.[X]
+
+## RagnarokName
+Ragnarok[X]
+
+## RagnarokDescription
+Forlorn prophesy of time's end.[X]

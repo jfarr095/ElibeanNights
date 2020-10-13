@@ -58,7 +58,7 @@ UNIT Ninian Dancer 0x0 Level(2,Ally,0) [15,6] 0 0 0 0 [NinissGrace,Elixir] NoAI
 UNIT Marcus Paladin 0x0 Level(8,Ally,0) [14,7] 0 0 0 0 [SilverLance,SteelSword,Javelin,HoplonGuard] NoAI
 UNIT Natalie Valkyrie 0x0 Level(3,Ally,0) [13,6] 0 0 0 0 [Physic,Lightning,Tonic] NoAI
 UNIT Isadora PaladinF 0x0 Level(6,Ally,0) [13,9] 0 0 0 0 [SilverSword,ShortSpear,Elixir] NoAI
-UNIT Rebecca SniperF 0x0 Level(5,Ally,0) [16,7] 0 0 0 0 [SilverBow,SteelArch,Tonic] NoAI
+UNIT Rebecca SniperF 0x0 Level(5,Ally,0) [16,7] 0 0 0 0 [SilverBow,KillerBow,Tonic] NoAI
 UNIT Lowen GreatKnight 0x0 Level(6,Ally,0) [15,9] 0 0 0 0 [BattleAxe,SteelPoleax,SteelBlade,Tonic] NoAI
 UNIT Harken Hero 0x0 Level(8,Ally,0) [12,7] 0 0 0 0 [BraveSword,ShortAxe,Tonic] NoAI
 UNIT
@@ -67,8 +67,8 @@ UnitsMain:
 UNIT Eliwood Peer 0x0 Level(6,Ally,0) [14,5] 0 0 0 0 [NobleRapier,SilverSword,ChestKey_5,Elixir] NoAI
 UNIT Marcus Paladin 0x0 Level(8,Ally,0) [14,7] 0 0 0 0 [SilverLance,SteelSword,Javelin,HoplonGuard] NoAI
 UNIT Natalie Valkyrie 0x0 Level(3,Ally,0) [13,6] 0 0 0 0 [Physic,Heal,Lightning,Tonic] NoAI
-UNIT Rebecca SniperF 0x0 Level(5,Ally,0) [16,7] 0 0 0 0 [SilverBow,SteelArch,Tonic] NoAI
-UNIT Lowen GreatKnight 0x0 Level(6,Ally,0) [15,9] 0 0 0 0 [BattleAxe,SteelPoleax,SteelBlade,Tonic] NoAI
+UNIT Rebecca SniperF 0x0 Level(5,Ally,0) [16,7] 0 0 0 0 [SilverBow,KillerBow,Tonic] NoAI
+UNIT Lowen GreatKnight 0x0 Level(6,Ally,0) [15,9] 0 0 0 0 [BattleAxe,HandAxe,SteelBlade,Tonic] NoAI
 UNIT
 
 //Affected by Eliwood's pairing
@@ -91,7 +91,7 @@ UNIT Isadora PaladinF 0x0 Level(6,Ally,0) [13,9] 0 0 0 0 [SilverSword,ShortSpear
 UNIT
 
 UnitsMeredith:
-UNIT Meredith SageF 0x0 Level(13,Ally,0) [13,9] 0 0 0 0 [Elfire,Bolting,Nosferatu,Tonic] NoAI
+UNIT Meredith SageF 0x0 Level(13,Ally,0) [13,9] 0 0 0 0 [Elfire,Bolting,Nosferatu,Worm] NoAI
 UNIT
 
 UnitsHarken:
@@ -105,11 +105,11 @@ UNIT Dorcas Warrior 0x0 Level(8,Ally,0) [1,6] 0 0 0 0 [SteelPoleax,Swordreaver,S
 UNIT
 
 UnitsSain:
-UNIT Sain Paladin 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [Greatlance,Spear,Swordslayer] NoAI
+UNIT Sain Paladin 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [Greatlance,Spear,Swordslayer,ChestKey_5] NoAI
 UNIT
 
 UnitsWil:
-UNIT Wil Ranger 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [QuickBow,SteelBow,Axereaver,Tonic] NoAI
+UNIT Wil Ranger 0x0 Level(7,Ally,0) [1,6] 0 0 0 0 [QuickBow,SteelLance,Axereaver,ChestKey_5] NoAI
 UNIT
 
 EnemyUnits:
@@ -135,19 +135,19 @@ UNIT LostResolveBandit Swordmaster 0x0 Level(6,Enemy,1) [1,14] 0 0 0 0 [SteelSwo
 UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [28,13] 0 0 0 0 [SteelAxe] AttackInRangeAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [27,13] 0 0 0 0 [ShortAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Druid 0x0 Level(4,Enemy,1) [26,3] 0 0 0 0 [Flux] AttackInRangeAI
-UNIT LostResolveBandit Hero 0x0 Level(6,Enemy,1) [2,2] 0 0 0 0 [SteelSword] WaitChargeAI
+UNIT LostResolveBandit Hero 0x0 Level(6,Enemy,1) [2,2] DropItem 0 0 0 [SteelSword,ChestKey_5] WaitChargeAI
 UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [2,11] 0 0 0 0 [Flux] DefaultAI
 UNIT LostResolveBandit Mercenary 0x0 Level(13,Enemy,1) [4,12] 0 0 0 0 [Lancereaver] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [4,22] 0 0 0 0 [PoisonAxe] WaitChargeAI
 UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [5,8] 0 0 0 0 [KillerAxe,IronBow] WaitChargeAI
 UNIT LostResolveBandit Brigand 0x0 Level(11,Enemy,1) [7,4] 0 0 0 0 [PoisonAxe] WaitChargeAI
 UNIT LostResolveBandit Fighter 0x0 Level(12,Enemy,1) [6,3] 0 0 0 0 [ShortAxe] WaitChargeAI
-UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [23,15] 0 0 0 0 [ShortAxe] AttackInRangeAI
+UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [23,15] DropItem 0 0 0 [QuickAxe] AttackInRangeAI
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [24,11] 0 0 0 0 [DevilAxe] AttackInRangeAI
 UNIT LostResolveBandit Hero 0x0 Level(2,Enemy,1) [23,11] 0 0 0 0 [SteelBlade] AttackInRangeAI
 UNIT LostResolveBandit Myrmidon 0x0 Level(2,Enemy,1) [24,9] 0 0 0 0 [SteelBlade] ChaseOnceApproachedAI
 UNIT LostResolveBandit Brigand 0x0 Level(12,Enemy,1) [23,8] 0 0 0 0 [BattleAxe] AttackInRangeAI
-UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [22,2] 0 0 0 0 [Longbow] DefaultAI
+UNIT LostResolveBandit Warrior 0x0 Level(1,Enemy,1) [22,2] DropItem 0 0 0 [Longbow] DefaultAI
 
 //Center
 UNIT LostResolveBandit Brigand 0x0 Level(13,Enemy,1) [8,16] 0 0 0 0 [Swordreaver] WaitChargeAI
@@ -155,16 +155,6 @@ UNIT LostResolveBandit Shaman 0x0 Level(14,Enemy,1) [19,18] 0 0 0 0 [Flux] WaitC
 UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,18] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
 UNIT LostResolveBandit Myrmidon 0x0 Level(11,Enemy,1) [11,18] 0 0 0 0 [Lancereaver] DefaultAI
 UNIT LostResolveBandit Brigand 0x0 Level(12,Enemy,1) [13,17] 0 0 0 0 [DevilAxe] DefaultAI
-
-//Throne room
-//UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [13,11] 0 0 0 0 [SteelAxe] AttackInRangeAI
-//UNIT LostResolveBandit Fighter 0x0 Level(13,Enemy,1) [15,13] 0 0 0 0 [SteelAxe] AttackInRangeAI
-//UNIT LostResolveBandit Berserker 0x0 Level(4,Enemy,1) [12,10] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
-//UNIT LostResolveBandit Berserker 0x0 Level(5,Enemy,1) [16,9] 0 0 0 0 [SteelAxe] ChaseOnceApproachedAI
-//UNIT LostResolveBandit Warrior 0x0 Level(3,Enemy,1) [10,5] 0 0 0 0 [Longbow] AttackInRangeAI
-
-//UNIT Warner Berserker 0x0 Level(12,Enemy,0) [14,5] 0 0 0 0 [BraveAxe,Swordreaver,ShortAxe] GuardTileAI
-//UNIT LostResolveBandit Berserker 0x0 Level(6,Enemy,1) [14,6] 0 0 0 0 [Tomahawk] GuardTileAI
 UNIT
 
 UnitsSW:

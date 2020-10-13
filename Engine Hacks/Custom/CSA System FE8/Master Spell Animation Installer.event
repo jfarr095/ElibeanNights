@@ -64,3 +64,6 @@ ALIGN 4
 //animations go here
 
 //#include "My Spells/Some Spell.event" //for example
+
+#include "Spells/Worm/Installer.event"
+

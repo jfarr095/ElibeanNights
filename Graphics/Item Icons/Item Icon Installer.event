@@ -16,5 +16,133 @@ PUSH
 
 	ORG WeaponIconOffset(ShortAxeIcon)
 	#incbin "Icons/ShortAxe.dmp"
+	
+	ORG WeaponIconOffset(IronPoleaxIcon)
+	#incbin "Icons/IronPoleax.dmp"
+	
+	ORG WeaponIconOffset(SilverPoleaxIcon)
+	#incbin "Icons/SIlverPoleax.dmp"
+	
+	ORG WeaponIconOffset(BeardedAxeIcon)
+	#incbin "Icons/BeardedAxe.dmp"
+	
+	ORG WeaponIconOffset(GigantAxeIcon)
+	#incbin "Icons/GigantAxe.dmp"
+	
+	ORG WeaponIconOffset(IronArchIcon)
+	#incbin "Icons/IronArch.dmp"
+	
+	ORG WeaponIconOffset(SilverArchIcon)
+	#incbin "Icons/SilverArch.dmp"
+	
+	ORG WeaponIconOffset(TowerBowIcon)
+	#incbin "Icons/TowerBow.dmp"
+	
+	ORG WeaponIconOffset(GreatlanceIcon)
+	#incbin "Icons/Greatlance.dmp"
+	
+	ORG WeaponIconOffset(PilumIcon)
+	#incbin "Icons/Pilum.dmp"
+	
+	ORG WeaponIconOffset(LongswordIcon)
+	#incbin "Icons/Longsword.dmp"
+	
+	ORG WeaponIconOffset(QuickSwordIcon)
+	#incbin "Icons/QuickSword.dmp"
+	
+	ORG WeaponIconOffset(QuickLanceIcon)
+	#incbin "Icons/QuickLance.dmp"
+	
+	ORG WeaponIconOffset(QuickAxeIcon)
+	#incbin "Icons/QuickAxe.dmp"
+	
+	ORG WeaponIconOffset(QuickBowIcon)
+	#incbin "Icons/QuickBow.dmp"
+	
+	ORG WeaponIconOffset(LoberaIcon)
+	#incbin "Icons/Lobera.dmp"
+	
+	ORG WeaponIconOffset(QueensgardIcon)
+	#incbin "Icons/Queensgard.dmp"
+	
+	ORG WeaponIconOffset(EspontoonIcon)
+	#incbin "Icons/Espontoon.dmp"
+	
+	ORG WeaponIconOffset(ManiKattiIcon)
+	#incbin "Icons/ManiKatti.dmp"
+	
+		ORG WeaponIconOffset(SolKattiIcon)
+	#incbin "Icons/SolKatti.dmp"
+	
+			ORG WeaponIconOffset(HoplonGuardIcon)
+	#incbin "Icons/HoplonGuard.dmp"
+	
+				ORG WeaponIconOffset(WormIcon)
+	#incbin "Icons/Worm.dmp"
+	
+	ORG WeaponIconOffset(CutlassIcon)
+	#incbin "Icons/Cutlass.dmp"
+	
+	ORG WeaponIconOffset(HuntingBowIcon)
+	#incbin "Icons/HuntingBow.dmp"
+	
+	ORG WeaponIconOffset(KingswordIcon)
+	#incbin "Icons/Kingsword.dmp"
+	
+	ORG WeaponIconOffset(WindIcon)
+	#incbin "Icons/Wind.dmp"
+	
+	ORG WeaponIconOffset(ArtemisIcon)
+	#incbin "Icons/Artemis.dmp"
+	
+	ORG WeaponIconOffset(ExordiumIcon)
+	#incbin "Icons/Exordium.dmp"
+	
+	ORG WeaponIconOffset(RuneBowIcon)
+	#incbin "Icons/RuneBow.dmp"
+	
+	ORG WeaponIconOffset(SwiftIcon)
+	#incbin "Icons/Swift.dmp"
+	
+	ORG WeaponIconOffset(ShaverIcon)
+	#incbin "Icons/Shaver.dmp"
+	
+	ORG WeaponIconOffset(ArcthunderIcon)
+	#incbin "Icons/Arcthunder.dmp"
+	
+	ORG WeaponIconOffset(ThoronIcon)
+	#incbin "Icons/Thoron.dmp"
+	
+	ORG WeaponIconOffset(DireThunderIcon)
+	#incbin "Icons/DireThunder.dmp"
+	
+	ORG WeaponIconOffset(ForblazeIcon)
+	#incbin "Icons/Forblaze.dmp"
+	
+	ORG WeaponIconOffset(VainamoinenIcon)
+	#incbin "Icons/Vainamoinen.dmp"
+	
+	ORG WeaponIconOffset(FenrisIcon)
+	#incbin "Icons/Fenris.dmp"
+	
+	ORG WeaponIconOffset(MeteorIcon)
+	#incbin "Icons/Meteor.dmp"
+	
+	ORG WeaponIconOffset(PoisonBladeIcon)
+	#incbin "Icons/PoisonBlade.dmp"
+	
+	ORG WeaponIconOffset(GrimoireIcon)
+	#incbin "Icons/Grimoire.dmp"
+	
+	ORG WeaponIconOffset(SlimeIcon)
+	#incbin "Icons/Slime.dmp"
+	
+	ORG WeaponIconOffset(RagnarokIcon)
+	#incbin "Icons/Ragnarok.dmp"
+	
+	
+	
 
 POP
+
+
