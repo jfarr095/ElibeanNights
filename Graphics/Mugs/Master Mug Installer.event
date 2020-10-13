@@ -18,7 +18,7 @@ setMugEntry(MarcusMug, MarcusMugData, 2, 5, 3, 3)
 ALIGN 16
 NatalieMugData:
 #incext PortraitFormatter "Image/Natalie.png"
-setMugEntry(NatalieMug, NatalieMugData, 3, 5, 3, 3)
+setMugEntry(NatalieMug, NatalieMugData, 2, 5, 3, 3)
 
 ALIGN 16
 HarkenMugData:
@@ -63,12 +63,12 @@ setMugEntry(LuciusMug, LuciusMugData, 3, 5, 3, 3)
 ALIGN 16
 LynMugData:
 #incext PortraitFormatter "Image/Lyn.png"
-setMugEntry(LynMug, LynMugData, 3, 5, 3, 3)
+setMugEntry(LynMug, LynMugData, 2, 5, 2, 3)
 
 ALIGN 16
 RathMugData:
 #incext PortraitFormatter "Image/Rath.png"
-setMugEntry(RathMug, RathMugData, 3, 5, 3, 3)
+setMugEntry(RathMug, RathMugData, 2, 5, 3, 3)
 
 ALIGN 16
 PrasadMugData:
@@ -78,7 +78,7 @@ setMugEntry(PrasadMug, PrasadMugData, 3, 5, 3, 3)
 ALIGN 16
 WarnerMugData:
 #incext PortraitFormatter "Image/Warner.png"
-setMugEntry(WarnerMug, WarnerMugData, 3, 5, 3, 3)
+setMugEntry(WarnerMug, WarnerMugData, 2, 5, 2, 3)
 
 ALIGN 16
 WilMugData:
@@ -88,7 +88,7 @@ setMugEntry(WilMug, WilMugData, 3, 5, 3, 3)
 ALIGN 16
 SainMugData:
 #incext PortraitFormatter "Image/Sain.png"
-setMugEntry(SainMug, SainMugData, 3, 5, 3, 3)
+setMugEntry(SainMug, SainMugData, 2, 5, 3, 3)
 
 ALIGN 16
 KhitanMugData:
@@ -98,9 +98,9 @@ setMugEntry(KhitanMug, KhitanMugData, 3, 5, 3, 3)
 ALIGN 16
 FioraMugData:
 #incext PortraitFormatter "Image/Fiora.png"
-setMugEntry(FioraMug, FioraMugData, 3, 5, 3, 3)
+setMugEntry(FioraMug, FioraMugData, 2, 5, 3, 3)
 
 ALIGN 16
 MeredithMugData:
 #incext PortraitFormatter "Image/Meredith.png"
-setMugEntry(MeredithMug, MeredithMugData, 3, 5, 3, 3)
+setMugEntry(MeredithMug, MeredithMugData, 3, 4, 3, 2)

@@ -52,6 +52,11 @@
 #define MapOnlyAnimation 0xfffe
 #define NoAnimation 0xffff
 
+
+
+#define WormAnimation 0x48
+
+
 //Map Animations
 
 #define HealMapAnimation 0x89a4a54
