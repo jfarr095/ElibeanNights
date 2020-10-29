@@ -1,2 +1,21 @@
 ## LostResolveName
 Lost Resolve[X]
+
+## LostResolveNarration
+All of Lycia's peoples, in theory, bow[N]
+their heads to one marquess or the other.[AN]
+But amidst the peaks and valleys of Mount[N]
+Bolm, such a thing would be unthinkable.[AN]
+For decades, the violent barbarians[N]
+inhabiting these mountains[AN]
+Have vied for supremacy over neighboring[N]
+Pherae, being kept at bay by their knights.[AN]
+But circumstance would see most of Pherae's[N]
+forces leave their home for over a year,[AN]
+allowing the Bolm Mountain Bandits[N]
+to wreak havoc and grow in power.[AN]
+For four long years, marquess Eliwood[N]
+has struggled to protect his people[AN]
+from the bandits' vile "king", Onslow.[AN]
+But now, personal tragedy hounds Eliwood;[N]
+his dear mother has fallen deathly ill...[X]
