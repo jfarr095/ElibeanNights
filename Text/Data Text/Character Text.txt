@@ -225,6 +225,117 @@ Hector[X]
 Marquess Ostia. Reckless, but[N]
 his heart is in the right place.[X]
 
+## MatthewName
+Matthew[X]
+
+## MatthewDescription
+A cheery spy. His casual[N]
+demeanor belies his skill.[X]
+
+## OswinName
+Oswin[X]
+
+## OswinDescription
+A knight in service to House[N]
+Ostia. Hector's sworn man.[X]
+
+## SerraName
+Serra[X]
+
+## SerraDescription
+A cleric in service to House[N]
+Ostia. Headstrong and bold.[X]
+
+## OrunName
+Orun[X]
+
+## OrunDescription
+The Marquess of Thria.[N]
+Hector's half-brother.[X]
+
+## WagnerName
+Wagner[X]
+
+## WagnerDescription
+Marquess Orun's trusted court[N]
+wizard. A shrewd strategist.[X]
+
+## FargusName
+Fargus[X]
+
+## FargusDescription
+Captain of the dreaded[N]
+Davros pirates.[X]
+
+## ErikName
+Erik[X]
+
+## ErikDescription
+The Marquess of Laus. Dreams[N]
+of leading Lycia himself.[X]
+
+## FarinaName
+Farina[X]
+
+## FarinaDescription
+A member of the 3rd wing[N]
+of Ilia's pegasus knights.[X]
+
+## LisbetName
+Lisbet[X]
+
+## LisbetDescription
+Daughter of Marquess Khathelet,[N]
+a passionate and caring person.[X]
+
+## DawsonName
+Dawson[X]
+
+## DawsonDescription
+The Marquess of Ryerde. He[N]
+leads the rebel triumverate.[X]
+
+## YorrickName
+Yorrick[X]
+
+## YorrickDescription
+The Marquess of Tuscana, a[N]
+respected elder-statesman.[X]
+
+## OstiaName
+Ostia[X]
+
+## OstiaDescription
+Knights of Ostia, a leading[N]
+canton in the Lycian League.[X]
+
+## LausName
+Laus[X]
+
+## LausDescription
+Soldiers of Laus, a territory[N]
+in the Lycian League.[X]
+
+## RyerdeName
+Ryerde[X]
+
+## RyerdeDescription
+Soldiers of Ryerde, fighting[N]
+under Marquess Dawson.[X]
+
+## TuscanaName
+Tuscana[X]
+
+## TuscanaDescription
+Soldiers of Tuscana, a territory[N]
+in the Lycian League.[X]
+
+## ThriaName
+Thria[X]
+
+## ThriaDescription
+Soldiers of Thria, a small[N]
+canton south of Ostia.[X]
 
 
 

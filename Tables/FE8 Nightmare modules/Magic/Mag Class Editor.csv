@@ -4,36 +4,36 @@ Peer,1,10,21,0
 Vagabond,1,25,22,0
 Ephraim Master Lord,2,10,24,1
 Eirika Master Lord,2,20,25,2
-Cavalier,0,0,20,0
-Cavalier (F),0,0,20,0
+Cavalier,0,5,20,0
+Cavalier (F),1,10,20,0
 Paladin,2,10,24,2
 Paladin (F),2,10,24,2
-Armour Knight,0,0,20,0
-Armour Knight (F),0,0,20,0
-General,0,0,22,0
-General (F),0,0,22,0
+Armour Knight,1,5,20,0
+Armour Knight (F),0,5,20,0
+General,0,5,22,0
+General (F),0,5,22,0
 Thief,1,5,20,0
 Manakete,0,0,20,0
-Mercenary,0,0,20,0
-Mercenary (F),0,0,20,0
-Hero,0,0,23,0
-Hero (F),0,0,23,0
+Mercenary,0,11,20,0
+Mercenary (F),0,11,20,0
+Hero,2,5,23,0
+Hero (F),2,5,23,0
 Myrmidon,1,15,20,0
 Myrmidon (F),1,15,20,0
 Swordmaster,2,10,23,1
 Swordmaster (F),2,10,23,1
-Assassin,1,0,22,0
-Assassin (F),1,0,22,0
-Archer,0,0,20,0
-Archer (F),0,0,20,0
-Sniper,1,10,24,1
-Sniper (F),1,10,24,1
-Ranger,0,0,22,0
-Ranger (F),0,0,22,0
-Wyvern Rider,0,0,20,0
-Wyvern Rider (F),0,0,20,0
-Wyvern Lord,0,0,21,0
-Wyvern Lord (F),0,0,21,0
+Assassin,1,5,22,0
+Assassin (F),1,5,22,0
+Archer,0,5,20,0
+Archer (F),1,5,20,0
+Sniper,1,15,24,1
+Sniper (F),1,15,24,1
+Ranger,0,15,22,0
+Ranger (F),0,15,22,0
+Wyvern Rider,0,5,20,0
+Wyvern Rider (F),0,5,20,0
+Wyvern Lord,1,5,21,0
+Wyvern Lord (F),1,5,21,0
 Wyvern Knight,1,5,24,1
 Wyvern Knight (F),1,5,24,1
 Mage,1,55,20,0
@@ -62,11 +62,11 @@ Manakete,2,0,20,0
 Manakete (F),2,0,20,0
 Journeyman (1),0,0,20,0
 Pupil (1),1,55,20,0
-Fighter,0,0,20,0
-Warrior,0,0,21,0
-Brigand,0,0,20,0
-Pirate,0,0,20,0
-Berserker,0,0,21,0
+Fighter,0,5,20,0
+Warrior,0,5,21,0
+Brigand,0,5,20,0
+Pirate,1,5,20,0
+Berserker,0,5,21,0
 Monk,1,30,20,0
 Priest,1,30,20,0
 Bard,1,45,20,0
@@ -77,7 +77,7 @@ Cleric,1,30,20,0
 Troubadour,1,25,20,0
 Valkyrie,4,35,25,2
 Dancer,1,45,20,0
-Soldier,0,0,20,0
+Soldier,0,5,20,0
 Necromancer,9,55,30,0
 Fleet,0,0,20,0
 Phantom,0,0,20,0

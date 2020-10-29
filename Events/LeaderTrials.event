@@ -1,0 +1,119 @@
+EventPointerTable(Ch3Event, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Isadora Paladin 0x0 Level(6,Ally,0) [13,9] 0 0 0 0 [SilverSword,ShortSpear,Elixir] NoAI
+UNIT Marcus Paladin 0x0 Level(8,Ally,0) [14,7] 0 0 0 0 [SilverLance,SteelSword,Javelin,HoplonGuard] NoAI
+UNIT
+
+UnitsKutolah:
+UNIT Rath Ranger 0x0 Level(9,Enemy,0) [15,11] 0 0 0 0 [ShortBow,KillerBow,SteelSword] DefaultAI
+UNIT Prasad Ranger 0x0 Level(8,Enemy,0) [15,9] 0 0 0 0 [SteelBow,KillingEdge,Tonic,Antitoxin] DefaultAI
+UNIT Kutolah Ranger 0x0 Level(7,Enemy,1) [14,10] 0 0 0 0 [ShortBow] DefaultAI
+UNIT Kutolah Ranger 0x0 Level(6,Enemy,1) [16,10] 0 0 0 0 [KillingEdge] DefaultAI
+UNIT Kutolah Ranger 0x0 Level(7,Enemy,1) [14,12] 0 0 0 0 [Longsword,SteelBow] DefaultAI
+UNIT Kutolah Ranger 0x0 Level(7,Enemy,1) [16,12] 0 0 0 0 [SteelBow,SteelBlade] DefaultAI
+UNIT
+
+UnitsKhitan:
+UNIT LostResolveBandit Fighter 0x0 Level(1,Enemy,1) [15,13] 0 0 0 0 [ShortAxe] DefaultAI
+UNIT LostResolveBandit Brigand 0x0 Level(1,Enemy,1) [13,17] 0 0 0 0 [PoisonAxe] DefaultAI
+UNIT
+
+UnitsDjute:
+//Northwestern groups
+UNIT Djute Ranger 0x0 Level(4,Enemy,1) [1,0] 0 0 0 0 [ShortBow,SteelSword] AttackInRangeAI
+UNIT Djute Ranger 0x0 Level(4,Enemy,1) [0,0] 0 0 0 0 [QuickSword] AttackInRangeAI
+UNIT Djute Sage 0x0 Level(5,Enemy,1) [0,1] 0 0 0 0 [Fire,Physic] AttackInRangeAI
+UNIT Djute Ranger 0x0 Level(4,Enemy,1) [1,3] 0 0 0 0 [IronArch] AttackInRangeAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [0,4] 0 0 0 0 [ShortBow] AttackInRangeAI
+
+UNIT Djute Druid 0x0 Level(6,Enemy,1) [7,1] 0 0 0 0 [Eclipse,Nosferatu] AttackInRangeAI
+UNIT Djute Ranger 0x0 Level(4,Enemy,1) [6,0] 0 0 0 0 [SteelBow] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [10,0] 0 0 0 0 [KillerBow] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [8,1] 0 0 0 0 [ShortBow] DefaultAI
+UNIT Djute Swordmaster 0x0 Level(5,Enemy,1) [6,1] 0 0 0 0 [QuickSword] DefaultAI
+
+UNIT Djute Swordmaster 0x0 Level(5,Enemy,1) [4,2] 0 0 0 0 [Longsword] AttackInRangeAI
+UNIT Djute Warrior 0x0 Level(5,Enemy,1) [3,2] 0 0 0 0 [SteelBow] AttackInRangeAI
+
+//Western group
+UNIT Djute Warrior 0x0 Level(5,Enemy,1) [1,11] 0 0 0 0 [Halberd] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [0,12] 0 0 0 0 [ShortBow] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [0,13] 0 0 0 0 [SteelSword] DefaultAI
+
+//Southern groups
+UNIT Djute Swordmaster 0x0 Level(5,Enemy,1) [6,1] 0 0 0 0 [SteelBlade] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [1,21] 0 0 0 0 [ShortBow] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [0,22] 0 0 0 0 [Longsword] DefaultAI
+
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [14,23] 0 0 0 0 [ShortBow,SteelSword] DefaultAI
+UNIT Djute Druid 0x0 Level(5,Enemy,1) [0,13] 0 0 0 0 [Flux,Physic] DefaultAI
+
+//Eastern groups
+UNIT Djute Berserker 0x0 Level(5,Enemy,1) [27,15] 0 0 0 0 [PoisonAxe] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [27,14] 0 0 0 0 [QuickSword] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [28,13] 0 0 0 0 [ShortBow,SteelSword] DefaultAI
+UNIT Djute Ranger 0x0 Level(5,Enemy,1) [28,12] 0 0 0 0 [ShortBow,Lancereaver] DefaultAI
+
+UNIT Djute Swordmaster 0x0 Level(5,Enemy,1) [25,5] 0 0 0 0 [SteelBlade,EnergyRing] DefaultAI
+UNIT Djute Sage 0x0 Level(5,Enemy,1) [26,3] 0 0 0 0 [Elfire,Divine] DefaultAI
+UNIT Djute Warrior 0x0 Level(5,Enemy,1) [25,1] 0 0 0 0 [SteelPoleax] DefaultAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units1
+ENUN
+LOAD1 0x1 UnitsKutolah
+ENUN
+ENDA
+
+EndingScene:
+MNC2 TaleSelect
+NoFade
+ENDA

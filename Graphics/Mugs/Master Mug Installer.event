@@ -104,3 +104,94 @@ ALIGN 16
 MeredithMugData:
 #incext PortraitFormatter "Image/Meredith.png"
 setMugEntry(MeredithMug, MeredithMugData, 3, 4, 3, 2)
+
+ALIGN 16
+DayanMugData:
+#incext PortraitFormatter "Image/Dayan.png"
+setMugEntry(DayanMug, DayanMugData, 3, 5, 3, 3)
+
+ALIGN 16
+GuyMugData:
+#incext PortraitFormatter "Image/Guy.png"
+setMugEntry(GuyMug, GuyMugData, 2, 6, 3, 4)
+
+ALIGN 16
+NiimeMugData:
+#incext PortraitFormatter "Image/Niime.png"
+setMugEntry(NiimeMug, NiimeMugData, 3, 5, 3, 3)
+
+ALIGN 16
+FlorinaMugData:
+#incext PortraitFormatter "Image/Florina.png"
+setMugEntry(FlorinaMug, FlorinaMugData, 2, 6, 2, 4)
+
+ALIGN 16
+WallaceMugData:
+#incext PortraitFormatter "Image/Wallace.png"
+setMugEntry(WallaceMug, WallaceMugData, 2, 4, 2, 2)
+
+ALIGN 16
+KentMugData:
+#incext PortraitFormatter "Image/Kent.png"
+setMugEntry(KentMug, KentMugData, 3, 5, 3, 3)
+
+ALIGN 16
+HectorMugData:
+#incext PortraitFormatter "Image/Hector.png"
+setMugEntry(HectorMug, HectorMugData, 3, 4, 3, 2)
+
+ALIGN 16
+HectorFormalMugData:
+#incext PortraitFormatter "Image/HectorFormal.png"
+setMugEntry(HectorFormalMug, HectorFormalMugData, 3, 4, 3, 2)
+
+ALIGN 16
+OswinMugData:
+#incext PortraitFormatter "Image/Oswin.png"
+setMugEntry(OswinMug, OswinMugData, 2, 4, 3, 2)
+
+ALIGN 16
+MatthewMugData:
+#incext PortraitFormatter "Image/Matthew.png"
+setMugEntry(MatthewMug, MatthewMugData, 2, 5, 3, 3)
+
+ALIGN 16
+SerraMugData:
+#incext PortraitFormatter "Image/Serra.png"
+setMugEntry(SerraMug, SerraMugData, 3, 6, 3, 4)
+
+ALIGN 16
+OrunMugData:
+#incext PortraitFormatter "Image/Orun.png"
+setMugEntry(OrunMug, OrunMugData, 3, 5, 3, 3)
+
+ALIGN 16
+FargusMugData:
+#incext PortraitFormatter "Image/Fargus.png"
+setMugEntry(FargusMug, FargusMugData, 2, 5, 3, 3)
+
+ALIGN 16
+LisbetMugData:
+#incext PortraitFormatter "Image/Lisbet.png"
+setMugEntry(LisbetMug, LisbetMugData, 3, 5, 3, 3)
+
+ALIGN 16
+FarinaMugData:
+#incext PortraitFormatter "Image/Farina.png"
+setMugEntry(FarinaMug, FarinaMugData, 3, 5, 3, 3)
+
+ALIGN 16
+ErikMugData:
+#incext PortraitFormatter "Image/Erik.png"
+setMugEntry(ErikMug, ErikMugData, 2, 5, 2, 3)
+
+ALIGN 16
+DawsonMugData:
+#incext PortraitFormatter "Image/Dawson.png"
+setMugEntry(DawsonMug, DawsonMugData, 2, 4, 3, 2)
+
+ALIGN 16
+YorrickMugData:
+#incext PortraitFormatter "Image/Yorrick.png"
+setMugEntry(YorrickMug, YorrickMugData, 3, 5, 3, 3)
+

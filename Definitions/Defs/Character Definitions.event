@@ -63,3 +63,71 @@
 
 #define Meredith 0x11
 #define MeredithMug 0x16
+
+#define Hector 0x1B
+#define HectorMug 0x17
+
+#define Oswin 0x1C
+#define OswinMug 0x18
+
+#define Matthew 0x1D
+#define MatthewMug 0x19
+
+#define Serra 0x1E
+#define SerraMug 0x1A
+
+#define Orun 0x1F
+#define OrunMug 0x1B
+
+#define Fargus 0x20
+#define FargusMug 0x1C
+
+#define Lisbet 0x21
+#define LisbetMug 0x1D
+
+#define Farina 0x22
+#define FarinaMug 0x1E
+
+#define Wagner 0x23
+#define WagnerMug 0x1F
+
+#define Erik 0x24
+#define ErikMug 0x20
+
+#define Dawson 0x6B
+#define DawsonMug 0x21
+#define Yorrick 0x6C
+#define YorrickMug 0x22
+#define Ostia 0x83
+#define Laus 0x84
+#define Ryerde 0x85
+#define Tuscana 0x86
+#define Thria 0x87
+
+#define Dayan 0x15
+#define DayanMug 0x23
+
+#define Guy 0x16
+#define GuyMug 0x24
+
+#define Niime 0x17
+#define NiimeMug 0x25
+
+#define Florina 0x18
+#define FlorinaMug 0x26
+
+#define Wallace 0x19
+#define WallaceMug 0x27
+
+#define Kent 0x1A
+#define KentMug 0x28
+
+#define HectorFormalMug 0x28
+
+
+
+
+
+
+
+
